@@ -1,0 +1,384 @@
+{
+  "url": "https://toyota.com\n",
+  "timestampIso": "2025-12-23T17:42:28.132Z",
+  "page": {
+    "title": "New Cars, Trucks, SUVs & Hybrids | Toyota Official Site",
+    "finalUrl": "https://www.toyota.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "colors": {
+    "extractedFromScreenshot": {
+      "swatches": {
+        "Vibrant": {
+          "hex": "#dd3640",
+          "rgb": [
+            221,
+            54,
+            64
+          ],
+          "population": 883
+        },
+        "DarkVibrant": {
+          "hex": "#484521",
+          "rgb": [
+            72,
+            69,
+            33
+          ],
+          "population": 2830
+        },
+        "LightVibrant": {
+          "hex": "#ecf4fc",
+          "rgb": [
+            236,
+            244,
+            252
+          ],
+          "population": 1
+        },
+        "Muted": {
+          "hex": "#99887f",
+          "rgb": [
+            153,
+            136,
+            127
+          ],
+          "population": 14614
+        },
+        "DarkMuted": {
+          "hex": "#5f5240",
+          "rgb": [
+            95,
+            82,
+            64
+          ],
+          "population": 52469
+        },
+        "LightMuted": {
+          "hex": "#d2baa3",
+          "rgb": [
+            210,
+            186,
+            163
+          ],
+          "population": 2350
+        }
+      },
+      "rankedHex": [
+        "#5f5240",
+        "#99887f",
+        "#484521",
+        "#d2baa3",
+        "#dd3640",
+        "#ecf4fc"
+      ]
+    },
+    "css": {
+      "backgroundColors": [
+        "#FFFFFF",
+        "#000000CC",
+        "#000000",
+        "#D8D8D8",
+        "#F2F2F2",
+        "#E3DED9",
+        "#F6F6F6",
+        "#2B5B59",
+        "#286A90",
+        "#E0E0DB",
+        "#B6B6AC",
+        "#C3C5C7",
+        "#83A2B0",
+        "#9E8660",
+        "#B9AD9F",
+        "#FBFBFB",
+        "#62573A",
+        "#3E3A3B"
+      ],
+      "textColors": [
+        "#000000",
+        "#FFFFFF",
+        "#E10A1D",
+        "#CA1F00",
+        "#767676"
+      ],
+      "linkColors": [
+        "#000000",
+        "#E10A1D",
+        "#FFFFFF"
+      ],
+      "borderColors": [
+        "#000000",
+        "#FFFFFF",
+        "#E10A1D",
+        "#F6F6F6",
+        "#767676",
+        "#D8D8D8",
+        "#CA1F00"
+      ],
+      "accentCandidates": [
+        "#E10A1D",
+        "#5f5240",
+        "#99887f",
+        "#484521",
+        "#d2baa3",
+        "#dd3640",
+        "#CA1F00"
+      ]
+    }
+  },
+  "typography": {
+    "fontFamilies": [
+      "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+      "tcomLight, HelvNeueLight, \"Helvetica Neue Light\", Arial, sans-serif",
+      "sans-serif"
+    ],
+    "fontSizesPx": [
+      10,
+      12,
+      12.0043,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48
+    ],
+    "fontWeights": [
+      400,
+      600,
+      700
+    ],
+    "lineHeightsPx": [
+      10,
+      12.0043,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      32,
+      40,
+      56
+    ]
+  },
+  "contrastChecks": [
+    {
+      "fg": "#000000",
+      "bg": "#FFFFFF",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#000000CC",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#000000",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#F2F2F2",
+      "ratio": 18.75,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#E3DED9",
+      "ratio": 15.71,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#D8D8D8",
+      "ratio": 14.73,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#FFFFFF",
+      "ratio": 5.66,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#F2F2F2",
+      "ratio": 5.05,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#FFFFFF",
+      "ratio": 4.92,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#000000CC",
+      "ratio": 4.62,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#000000",
+      "ratio": 4.62,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#FFFFFF",
+      "ratio": 4.54,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#F2F2F2",
+      "ratio": 4.4,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#000000CC",
+      "ratio": 4.26,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#000000",
+      "ratio": 4.26,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#E3DED9",
+      "ratio": 4.23,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#F2F2F2",
+      "ratio": 4.05,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#D8D8D8",
+      "ratio": 3.97,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#000000CC",
+      "ratio": 3.7,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#000000",
+      "ratio": 3.7,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#E3DED9",
+      "ratio": 3.68,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#D8D8D8",
+      "ratio": 3.45,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#E3DED9",
+      "ratio": 3.39,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#D8D8D8",
+      "ratio": 3.18,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#D8D8D8",
+      "ratio": 1.42,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#E3DED9",
+      "ratio": 1.33,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#F2F2F2",
+      "ratio": 1.11,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#000000CC",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#000000",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#FFFFFF",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    }
+  ],
+  "assets": {
+    "screenshotPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/screenshot-1766511747023.png"
+  }
+}
