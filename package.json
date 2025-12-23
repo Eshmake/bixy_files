@@ -1,0 +1,24 @@
+{
+  "name": "brand-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/scrape.ts",
+    "build": "tsc",
+    "start": "node dist/scrape.js"
+  },
+  "dependencies": {
+    "colord": "^2.9.3",
+    "node-vibrant": "^4.0.3",
+    "puppeteer": "^24.0.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/yargs": "^17.0.33",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
+}
+
