@@ -9,9 +9,16 @@ import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 
 import { colord, extend } from "colord";
-import a11yPlugin from "colord/plugins/a11y";
+import * as a11yMod from "colord/plugins/a11y";
 
-import { a11y } from "colord/plugins/a11y";
+const a11yPlugin = (a11yMod as any).default ?? (a11yMod as any);
+extend([a11yPlugin]);
+
+
+const sleep = (ms: number) => new Promise<void>((res) => setTimeout(res, ms));
+
+// usage
+const ratio = colord("#000").contrast(colord("#fff"));
 
 type BrandStyleSnapshot = {
   url: string;
@@ -124,7 +131,7 @@ async function main() {
     if (!resp) throw new Error("Navigation failed: no response");
 
     const finalUrl = page.url();
-    await page.waitForTimeout(800);
+    await sleep(800);
 
     const title = await page.title().catch(() => null);
 
@@ -136,12 +143,22 @@ async function main() {
     const swatches: BrandStyleSnapshot["colors"]["extractedFromScreenshot"]["swatches"] = {};
     for (const [name, sw] of Object.entries(palette)) {
       if (!sw) continue;
-      const rgb = sw.getRgb().map((v) => Math.round(v)) as [number, number, number];
-      swatches[name] = {
-        hex: sw.getHex().toUpperCase(),
-        rgb,
-        population: sw.getPopulation(),
-      };
+      const rgb = (sw.rgb ?? [0, 0, 0]).map((v: number) => Math.round(v)) as [
+      number,
+      number,
+      number
+    ];
+
+    const hex =
+      (typeof (sw as any).hex === "string" && (sw as any).hex) ||
+      (colord(`rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`).isValid()
+        ? colord(`rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`).toHex().toUpperCase()
+        : "#000000");
+
+const population =
+  typeof (sw as any).population === "number" ? (sw as any).population : 0;
+
+swatches[name] = { hex, rgb, population };
     }
 
     const rankedHex = Object.values(swatches)
@@ -302,7 +319,7 @@ async function main() {
     const reportPath = path.join(outDir, `report-${Date.now()}.json`);
     await fs.writeFile(reportPath, JSON.stringify(report, null, 2), "utf-8");
 
-    console.log("✅ Done");
+    console.log("Done");
     console.log("Report:", reportPath);
     console.log("Screenshot:", screenshotPath);
   } finally {
@@ -311,6 +328,6 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error("❌ Error:", err);
+  console.error("Error:", err);
   process.exit(1);
 });

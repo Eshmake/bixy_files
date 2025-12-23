@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "ts-node src/scrape.ts",
+    "dev": "node --loader ts-node/esm src/scrape.ts",
     "build": "tsc",
     "start": "node dist/scrape.js"
   },
