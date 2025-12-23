@@ -1,0 +1,391 @@
+{
+  "url": "https://vivint.com",
+  "timestampIso": "2025-12-23T17:38:09.991Z",
+  "page": {
+    "title": "End of Year Sales on Vivint®️ Home Security | 855.832.1550",
+    "finalUrl": "https://www.vivint.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "colors": {
+    "extractedFromScreenshot": {
+      "swatches": {
+        "Vibrant": {
+          "hex": "#04e3ab",
+          "rgb": [
+            4,
+            227,
+            171
+          ],
+          "population": 22045
+        },
+        "DarkVibrant": {
+          "hex": "#0b644c",
+          "rgb": [
+            11,
+            100,
+            76
+          ],
+          "population": 30589
+        },
+        "LightVibrant": {
+          "hex": "#72efd4",
+          "rgb": [
+            114,
+            239,
+            212
+          ],
+          "population": 7
+        },
+        "Muted": {
+          "hex": "#68908c",
+          "rgb": [
+            104,
+            144,
+            140
+          ],
+          "population": 2
+        },
+        "DarkMuted": {
+          "hex": "#393d4c",
+          "rgb": [
+            57,
+            61,
+            76
+          ],
+          "population": 676
+        },
+        "LightMuted": {
+          "hex": "#acccc4",
+          "rgb": [
+            172,
+            204,
+            196
+          ],
+          "population": 2
+        }
+      },
+      "rankedHex": [
+        "#0b644c",
+        "#04e3ab",
+        "#393d4c",
+        "#72efd4",
+        "#68908c",
+        "#acccc4"
+      ]
+    },
+    "css": {
+      "backgroundColors": [
+        "#F5F5F5",
+        "#FFFFFF",
+        "#05E5AF",
+        "#282A3B",
+        "#D4D4D4",
+        "#282A3B33",
+        "#141C1C"
+      ],
+      "textColors": [
+        "#282A3B",
+        "#FFFFFF",
+        "#D4D4D4",
+        "#707070",
+        "#A8FABF",
+        "#00A073",
+        "#696969",
+        "#5F7775",
+        "#000000",
+        "#555555"
+      ],
+      "linkColors": [
+        "#282A3B",
+        "#D4D4D4",
+        "#FFFFFF",
+        "#5F7775"
+      ],
+      "borderColors": [
+        "#282A3B",
+        "#FFFFFF",
+        "#D4D4D4",
+        "#707070",
+        "#05E5AF",
+        "#A8FABF",
+        "#00A073",
+        "#696969",
+        "#5F7775",
+        "#000000",
+        "#F5F5F5",
+        "#555555",
+        "#141C1C"
+      ],
+      "accentCandidates": [
+        "#282A3B",
+        "#5F7775",
+        "#0b644c",
+        "#04e3ab",
+        "#393d4c",
+        "#72efd4",
+        "#68908c",
+        "#acccc4",
+        "#A8FABF",
+        "#00A073"
+      ]
+    }
+  },
+  "typography": {
+    "fontFamilies": [
+      "\"Vivint Circular\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "\"Vivint Sans\", Arial, sans-serif",
+      "\"Vivint Sans\", Helvetica, Arial, sans-serif",
+      "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""
+    ],
+    "fontSizesPx": [
+      11,
+      12,
+      14,
+      14.4,
+      16,
+      18,
+      20,
+      24,
+      28,
+      34,
+      42
+    ],
+    "fontWeights": [
+      400,
+      500,
+      600,
+      700
+    ],
+    "lineHeightsPx": [
+      15,
+      16,
+      18,
+      21,
+      24,
+      26,
+      27,
+      28,
+      30,
+      35,
+      52.5
+    ]
+  },
+  "contrastChecks": [
+    {
+      "fg": "#282A3B",
+      "bg": "#FFFFFF",
+      "ratio": 14.14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#282A3B",
+      "ratio": 14.14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#282A3B33",
+      "ratio": 14.14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#282A3B",
+      "bg": "#F5F5F5",
+      "ratio": 12.97,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#A8FABF",
+      "bg": "#282A3B",
+      "ratio": 11.51,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#A8FABF",
+      "bg": "#282A3B33",
+      "ratio": 11.51,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#282A3B",
+      "bg": "#D4D4D4",
+      "ratio": 9.54,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#282A3B",
+      "ratio": 9.54,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#282A3B33",
+      "ratio": 9.54,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#282A3B",
+      "bg": "#05E5AF",
+      "ratio": 8.64,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#707070",
+      "bg": "#FFFFFF",
+      "ratio": 4.95,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#F5F5F5",
+      "ratio": 4.54,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#282A3B",
+      "ratio": 4.22,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#282A3B33",
+      "ratio": 4.22,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#D4D4D4",
+      "ratio": 3.34,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#FFFFFF",
+      "ratio": 3.34,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#F5F5F5",
+      "ratio": 3.06,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#05E5AF",
+      "ratio": 3.02,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#282A3B",
+      "ratio": 2.85,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#282A3B33",
+      "ratio": 2.85,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#D4D4D4",
+      "ratio": 2.25,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#05E5AF",
+      "ratio": 2.04,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#05E5AF",
+      "ratio": 1.63,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#D4D4D4",
+      "ratio": 1.48,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#FFFFFF",
+      "ratio": 1.48,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#F5F5F5",
+      "ratio": 1.35,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#A8FABF",
+      "bg": "#05E5AF",
+      "ratio": 1.33,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#A8FABF",
+      "bg": "#FFFFFF",
+      "ratio": 1.22,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#A8FABF",
+      "bg": "#D4D4D4",
+      "ratio": 1.2,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#A8FABF",
+      "bg": "#F5F5F5",
+      "ratio": 1.12,
+      "passesAA": false,
+      "passesAAA": false
+    }
+  ],
+  "assets": {
+    "screenshotPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/screenshot-1766511489209.png"
+  }
+}
