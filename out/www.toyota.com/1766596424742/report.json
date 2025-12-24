@@ -1,0 +1,2140 @@
+{
+  "url": "https://www.toyota.com",
+  "timestampIso": "2025-12-24T17:13:56.572Z",
+  "page": {
+    "title": "New Cars, Trucks, SUVs & Hybrids | Toyota Official Site",
+    "finalUrl": "https://www.toyota.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "screenshots": {
+    "viewportPngPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/viewport.png",
+    "fullPagePngPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/fullpage.png"
+  },
+  "assets": {
+    "discovered": [],
+    "downloadedImages": [
+      {
+        "sourceUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2025/accessories_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "localPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/images/be160eeb1f10d41d8aaa223a2ca9dc67b895b10a.png",
+        "palette": {
+          "swatches": {
+            "Vibrant": {
+              "hex": "#D47E54",
+              "rgb": [
+                212,
+                126,
+                84
+              ],
+              "population": 2295
+            },
+            "DarkVibrant": {
+              "hex": "#9A6C46",
+              "rgb": [
+                154,
+                108,
+                70
+              ],
+              "population": 180
+            },
+            "LightVibrant": {
+              "hex": "#E4875B",
+              "rgb": [
+                228,
+                135,
+                91
+              ],
+              "population": 60
+            },
+            "Muted": {
+              "hex": "#9C845B",
+              "rgb": [
+                156,
+                132,
+                91
+              ],
+              "population": 499
+            },
+            "DarkMuted": {
+              "hex": "#3B2425",
+              "rgb": [
+                59,
+                36,
+                37
+              ],
+              "population": 1216
+            },
+            "LightMuted": {
+              "hex": "#B8C3C9",
+              "rgb": [
+                184,
+                195,
+                201
+              ],
+              "population": 509
+            }
+          },
+          "rankedHex": [
+            "#D47E54",
+            "#3B2425",
+            "#B8C3C9",
+            "#9C845B",
+            "#9A6C46",
+            "#E4875B"
+          ]
+        }
+      },
+      {
+        "sourceUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/Tacoma_TAD_Logo_2492x1400_V1.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "localPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/images/8694e40fc1a5506ebc5d69d3dd8672900def3f88.png",
+        "palette": {
+          "swatches": {
+            "Vibrant": {
+              "hex": "#9F7B33",
+              "rgb": [
+                159,
+                123,
+                51
+              ],
+              "population": 303
+            },
+            "DarkVibrant": {
+              "hex": "#245064",
+              "rgb": [
+                36,
+                80,
+                100
+              ],
+              "population": 6
+            },
+            "LightVibrant": {
+              "hex": "#DEC89A",
+              "rgb": [
+                223,
+                200,
+                155
+              ],
+              "population": 0
+            },
+            "Muted": {
+              "hex": "#94896F",
+              "rgb": [
+                148,
+                137,
+                111
+              ],
+              "population": 654
+            },
+            "DarkMuted": {
+              "hex": "#32586C",
+              "rgb": [
+                50,
+                88,
+                108
+              ],
+              "population": 1716
+            },
+            "LightMuted": {
+              "hex": "#C4BEAF",
+              "rgb": [
+                196,
+                190,
+                175
+              ],
+              "population": 672
+            }
+          },
+          "rankedHex": [
+            "#32586C",
+            "#C4BEAF",
+            "#94896F",
+            "#9F7B33",
+            "#245064",
+            "#DEC89A"
+          ]
+        }
+      },
+      {
+        "sourceUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/TMM_FY26_0035_V001_Desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "localPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/images/1d99c8991244da159e633df570184b5d0c9253f4.png",
+        "palette": {
+          "swatches": {
+            "Vibrant": {
+              "hex": "#DB1F2C",
+              "rgb": [
+                219,
+                31,
+                44
+              ],
+              "population": 389
+            },
+            "DarkVibrant": {
+              "hex": "#6B303A",
+              "rgb": [
+                107,
+                48,
+                58
+              ],
+              "population": 461
+            },
+            "LightVibrant": {
+              "hex": "#DB7E7A",
+              "rgb": [
+                219,
+                126,
+                122
+              ],
+              "population": 24
+            },
+            "Muted": {
+              "hex": "#79848F",
+              "rgb": [
+                121,
+                132,
+                143
+              ],
+              "population": 426
+            },
+            "DarkMuted": {
+              "hex": "#2E3847",
+              "rgb": [
+                46,
+                56,
+                71
+              ],
+              "population": 1252
+            },
+            "LightMuted": {
+              "hex": "#B8ADB4",
+              "rgb": [
+                184,
+                173,
+                180
+              ],
+              "population": 1968
+            }
+          },
+          "rankedHex": [
+            "#B8ADB4",
+            "#2E3847",
+            "#6B303A",
+            "#79848F",
+            "#DB1F2C",
+            "#DB7E7A"
+          ]
+        }
+      },
+      {
+        "sourceUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/GR-HP-2_TGR-Logo.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "localPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/images/6fd6a880b07c7d7ad6c1e9f8f89e90e08b284427.png",
+        "palette": {
+          "swatches": {
+            "Vibrant": {
+              "hex": "#E8222A",
+              "rgb": [
+                232,
+                34,
+                42
+              ],
+              "population": 154
+            },
+            "DarkVibrant": {
+              "hex": "#04212D",
+              "rgb": [
+                4,
+                33,
+                45
+              ],
+              "population": 118
+            },
+            "LightVibrant": {
+              "hex": "#D45454",
+              "rgb": [
+                212,
+                84,
+                84
+              ],
+              "population": 5
+            },
+            "Muted": {
+              "hex": "#956677",
+              "rgb": [
+                149,
+                102,
+                119
+              ],
+              "population": 609
+            },
+            "DarkMuted": {
+              "hex": "#315466",
+              "rgb": [
+                49,
+                84,
+                102
+              ],
+              "population": 1331
+            },
+            "LightMuted": {
+              "hex": "#BAAFBA",
+              "rgb": [
+                186,
+                175,
+                186
+              ],
+              "population": 1463
+            }
+          },
+          "rankedHex": [
+            "#BAAFBA",
+            "#315466",
+            "#956677",
+            "#E8222A",
+            "#04212D",
+            "#D45454"
+          ]
+        }
+      },
+      {
+        "sourceUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/SOTR_Desktop_2492x1400.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "localPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/images/57e1a7b8216e4f10735b5bcd44f21533fc4e2b98.png",
+        "palette": {
+          "swatches": {
+            "Vibrant": {
+              "hex": "#C98531",
+              "rgb": [
+                201,
+                133,
+                49
+              ],
+              "population": 54
+            },
+            "DarkVibrant": {
+              "hex": "#807624",
+              "rgb": [
+                128,
+                118,
+                36
+              ],
+              "population": 118
+            },
+            "LightVibrant": {
+              "hex": "#7EA7C1",
+              "rgb": [
+                126,
+                167,
+                193
+              ],
+              "population": 1752
+            },
+            "Muted": {
+              "hex": "#486C83",
+              "rgb": [
+                72,
+                108,
+                131
+              ],
+              "population": 1662
+            },
+            "DarkMuted": {
+              "hex": "#2F4656",
+              "rgb": [
+                47,
+                70,
+                86
+              ],
+              "population": 923
+            },
+            "LightMuted": {
+              "hex": "#C2BABA",
+              "rgb": [
+                194,
+                186,
+                186
+              ],
+              "population": 1746
+            }
+          },
+          "rankedHex": [
+            "#7EA7C1",
+            "#C2BABA",
+            "#486C83",
+            "#2F4656",
+            "#807624",
+            "#C98531"
+          ]
+        }
+      },
+      {
+        "sourceUrl": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/corollacross/CRC_MY26_0008_V001.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "localPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/www.toyota.com/1766596424742/images/3674e271c77ee26ed458d8fabbed67007eb4594d.png",
+        "palette": {
+          "swatches": {
+            "Vibrant": {
+              "hex": "#D53344",
+              "rgb": [
+                213,
+                51,
+                68
+              ],
+              "population": 136
+            },
+            "DarkVibrant": {
+              "hex": "#980C11",
+              "rgb": [
+                152,
+                12,
+                17
+              ],
+              "population": 319
+            },
+            "LightVibrant": {
+              "hex": "#E9D28F",
+              "rgb": [
+                233,
+                210,
+                143
+              ],
+              "population": 71
+            },
+            "Muted": {
+              "hex": "#5188A6",
+              "rgb": [
+                81,
+                136,
+                166
+              ],
+              "population": 81
+            },
+            "DarkMuted": {
+              "hex": "#384650",
+              "rgb": [
+                56,
+                70,
+                80
+              ],
+              "population": 341
+            },
+            "LightMuted": {
+              "hex": "#C8C0B7",
+              "rgb": [
+                200,
+                192,
+                183
+              ],
+              "population": 1089
+            }
+          },
+          "rankedHex": [
+            "#C8C0B7",
+            "#384650",
+            "#980C11",
+            "#D53344",
+            "#5188A6",
+            "#E9D28F"
+          ]
+        }
+      }
+    ]
+  },
+  "styles": {
+    "featuredSamples": [
+      {
+        "selector": "a.slide-cta.dark.black",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.dark.button",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.dark.button",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "20px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Explore All Vehicles",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.button.secondary",
+        "tag": "a",
+        "text": "Learn More",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.youtube-button.button.secondary",
+        "tag": "button",
+        "text": "Watch Video",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.button-right.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "button.info-button.buttonDark",
+        "tag": "button",
+        "text": "Info",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0.8)",
+        "borderColor": "rgb(246, 246, 246)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "10px"
+      },
+      {
+        "selector": "#ensSave",
+        "tag": "button",
+        "text": "Save",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "13px"
+      },
+      {
+        "selector": "#ensCancel",
+        "tag": "button",
+        "text": "Cancel",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "13px"
+      },
+      {
+        "selector": "#ensTitle",
+        "tag": "header",
+        "text": "Cookie Consent",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(214, 214, 214)",
+        "fontFamily": "Roboto, Arial, sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "30px"
+      },
+      {
+        "selector": "div.hero-content.spacing-small-1-u.spacing-small-1-u-p",
+        "tag": "div",
+        "text": "Drive change your way.\n           Explore Beyond Zero",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.video-control.button-pause",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "backgroundImage": "url(\"https://www.toyota.com/content/dam/toyota/icons/pause-icon-white.svg\")"
+      },
+      {
+        "selector": "button.video-control.button-pause",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "backgroundImage": "url(\"https://www.toyota.com/content/dam/toyota/icons/pause-icon-white.svg\")"
+      },
+      {
+        "selector": "button.video-control.button-pause",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "backgroundImage": "url(\"https://www.toyota.com/content/dam/toyota/icons/pause-icon-white.svg\")"
+      },
+      {
+        "selector": "button.video-control.button-pause",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "backgroundImage": "url(\"https://www.toyota.com/content/dam/toyota/icons/pause-icon-white.svg\")"
+      },
+      {
+        "selector": "button.video-control.button-pause",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "backgroundImage": "url(\"https://www.toyota.com/content/dam/toyota/icons/pause-icon-white.svg\")"
+      },
+      {
+        "selector": "button.video-control.button-pause",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "backgroundImage": "url(\"https://www.toyota.com/content/dam/toyota/icons/pause-icon-white.svg\")"
+      },
+      {
+        "selector": "button.video-control.button-pause",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "lineHeight": "24px",
+        "backgroundImage": "url(\"https://www.toyota.com/content/dam/toyota/icons/pause-icon-white.svg\")"
+      },
+      {
+        "selector": "button.vis-control-cta.medium.js_prev",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.vis-control-cta.medium.js_next",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.vis-control-cta.small.pill",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.vis-control-cta.small.pill",
+        "tag": "button",
+        "textColor": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(255, 255, 255)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.play-cta.dark.large",
+        "tag": "button",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.play-cta.dark.large",
+        "tag": "button",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.vis-control-cta.small.pill",
+        "tag": "button",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "button.vis-control-cta.small.pill",
+        "tag": "button",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "#tcom-header",
+        "tag": "header",
+        "text": "Skip to main content\n            \n            \n             \n              \n    ",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderColor": "rgb(0, 0, 0) rgb(0, 0, 0) rgb(216, 216, 216)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "nav.container.menu-items-3",
+        "tag": "nav",
+        "text": "Vehicles \n                 \n                  \n                   \n             ",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "nav.tab-nav",
+        "tag": "nav",
+        "text": "Cars & Minivan\n              Trucks\n              Crossovers & SUVs\n            ",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "nav.tab-nav",
+        "tag": "nav",
+        "text": "Featured Stories\n              Vehicles & Technology\n              Offers & Serv",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "16px"
+      },
+      {
+        "selector": "a.secondary.button.dark",
+        "tag": "a",
+        "text": "Learn More",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.view-offer.button.secondary",
+        "tag": "a",
+        "text": "View Lease Offer",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.button.secondary.dark",
+        "tag": "a",
+        "text": "Explore More",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.view-offer.button.secondary",
+        "tag": "a",
+        "text": "View Lease Offer",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.button.secondary.dark",
+        "tag": "a",
+        "text": "Explore More",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.button.secondary.dark",
+        "tag": "a",
+        "text": "See Local Specials",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.view-offer.button.secondary",
+        "tag": "a",
+        "text": "View More Offers",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.button.secondary.dark",
+        "tag": "a",
+        "text": "Explore More",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.secondary.button.dark",
+        "tag": "a",
+        "text": "Learn More",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.view-offer.button.secondary",
+        "tag": "a",
+        "text": "View Lease Offer",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.button.secondary.dark",
+        "tag": "a",
+        "text": "Explore More",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px"
+      },
+      {
+        "selector": "a.slide-cta.vis-link.black",
+        "tag": "a",
+        "text": "Build",
+        "textColor": "rgb(0, 0, 0)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderColor": "rgb(0, 0, 0)",
+        "fontFamily": "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "20px"
+      }
+    ],
+    "cssStats": {
+      "backgroundColors": [
+        "#FFFFFF",
+        "#000000CC",
+        "#000000",
+        "#D8D8D8",
+        "#F2F2F2",
+        "#E3DED9",
+        "#F6F6F6",
+        "#CC0000",
+        "#2B5B59",
+        "#286A90",
+        "#E0E0DB",
+        "#B6B6AC",
+        "#C3C5C7",
+        "#83A2B0",
+        "#9E8660",
+        "#B9AD9F",
+        "#FBFBFB",
+        "#62573A",
+        "#3E3A3B"
+      ],
+      "textColors": [
+        "#000000",
+        "#FFFFFF",
+        "#E10A1D",
+        "#333333",
+        "#CA1F00",
+        "#767676"
+      ],
+      "linkColors": [
+        "#000000",
+        "#E10A1D",
+        "#FFFFFF"
+      ],
+      "borderColors": [
+        "#000000",
+        "#FFFFFF",
+        "#E10A1D",
+        "#333333",
+        "#F6F6F6",
+        "#767676",
+        "#D6D6D6",
+        "#D8D8D8",
+        "#CA1F00",
+        "#CC0000"
+      ],
+      "accentCandidates": [
+        "#E10A1D",
+        "#CA1F00"
+      ]
+    }
+  },
+  "palettes": {
+    "fromScreenshot": {
+      "swatches": {
+        "Vibrant": {
+          "hex": "#D92430",
+          "rgb": [
+            217,
+            36,
+            48
+          ],
+          "population": 768
+        },
+        "DarkVibrant": {
+          "hex": "#542012",
+          "rgb": [
+            84,
+            32,
+            18
+          ],
+          "population": 96
+        },
+        "LightVibrant": {
+          "hex": "#8CBCFC",
+          "rgb": [
+            140,
+            188,
+            252
+          ],
+          "population": 1
+        },
+        "Muted": {
+          "hex": "#757A7F",
+          "rgb": [
+            117,
+            122,
+            127
+          ],
+          "population": 14746
+        },
+        "DarkMuted": {
+          "hex": "#2C5C5B",
+          "rgb": [
+            44,
+            92,
+            91
+          ],
+          "population": 1557
+        },
+        "LightMuted": {
+          "hex": "#DFD1BE",
+          "rgb": [
+            223,
+            209,
+            190
+          ],
+          "population": 1448
+        }
+      },
+      "rankedHex": [
+        "#757A7F",
+        "#2C5C5B",
+        "#DFD1BE",
+        "#D92430",
+        "#542012",
+        "#8CBCFC"
+      ]
+    },
+    "fromImages": {
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2025/accessories_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#D47E54",
+            "rgb": [
+              212,
+              126,
+              84
+            ],
+            "population": 2295
+          },
+          "DarkVibrant": {
+            "hex": "#9A6C46",
+            "rgb": [
+              154,
+              108,
+              70
+            ],
+            "population": 180
+          },
+          "LightVibrant": {
+            "hex": "#E4875B",
+            "rgb": [
+              228,
+              135,
+              91
+            ],
+            "population": 60
+          },
+          "Muted": {
+            "hex": "#9C845B",
+            "rgb": [
+              156,
+              132,
+              91
+            ],
+            "population": 499
+          },
+          "DarkMuted": {
+            "hex": "#3B2425",
+            "rgb": [
+              59,
+              36,
+              37
+            ],
+            "population": 1216
+          },
+          "LightMuted": {
+            "hex": "#B8C3C9",
+            "rgb": [
+              184,
+              195,
+              201
+            ],
+            "population": 509
+          }
+        },
+        "rankedHex": [
+          "#D47E54",
+          "#3B2425",
+          "#B8C3C9",
+          "#9C845B",
+          "#9A6C46",
+          "#E4875B"
+        ]
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/Tacoma_TAD_Logo_2492x1400_V1.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#9F7B33",
+            "rgb": [
+              159,
+              123,
+              51
+            ],
+            "population": 303
+          },
+          "DarkVibrant": {
+            "hex": "#245064",
+            "rgb": [
+              36,
+              80,
+              100
+            ],
+            "population": 6
+          },
+          "LightVibrant": {
+            "hex": "#DEC89A",
+            "rgb": [
+              223,
+              200,
+              155
+            ],
+            "population": 0
+          },
+          "Muted": {
+            "hex": "#94896F",
+            "rgb": [
+              148,
+              137,
+              111
+            ],
+            "population": 654
+          },
+          "DarkMuted": {
+            "hex": "#32586C",
+            "rgb": [
+              50,
+              88,
+              108
+            ],
+            "population": 1716
+          },
+          "LightMuted": {
+            "hex": "#C4BEAF",
+            "rgb": [
+              196,
+              190,
+              175
+            ],
+            "population": 672
+          }
+        },
+        "rankedHex": [
+          "#32586C",
+          "#C4BEAF",
+          "#94896F",
+          "#9F7B33",
+          "#245064",
+          "#DEC89A"
+        ]
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/TMM_FY26_0035_V001_Desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#DB1F2C",
+            "rgb": [
+              219,
+              31,
+              44
+            ],
+            "population": 389
+          },
+          "DarkVibrant": {
+            "hex": "#6B303A",
+            "rgb": [
+              107,
+              48,
+              58
+            ],
+            "population": 461
+          },
+          "LightVibrant": {
+            "hex": "#DB7E7A",
+            "rgb": [
+              219,
+              126,
+              122
+            ],
+            "population": 24
+          },
+          "Muted": {
+            "hex": "#79848F",
+            "rgb": [
+              121,
+              132,
+              143
+            ],
+            "population": 426
+          },
+          "DarkMuted": {
+            "hex": "#2E3847",
+            "rgb": [
+              46,
+              56,
+              71
+            ],
+            "population": 1252
+          },
+          "LightMuted": {
+            "hex": "#B8ADB4",
+            "rgb": [
+              184,
+              173,
+              180
+            ],
+            "population": 1968
+          }
+        },
+        "rankedHex": [
+          "#B8ADB4",
+          "#2E3847",
+          "#6B303A",
+          "#79848F",
+          "#DB1F2C",
+          "#DB7E7A"
+        ]
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/GR-HP-2_TGR-Logo.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#E8222A",
+            "rgb": [
+              232,
+              34,
+              42
+            ],
+            "population": 154
+          },
+          "DarkVibrant": {
+            "hex": "#04212D",
+            "rgb": [
+              4,
+              33,
+              45
+            ],
+            "population": 118
+          },
+          "LightVibrant": {
+            "hex": "#D45454",
+            "rgb": [
+              212,
+              84,
+              84
+            ],
+            "population": 5
+          },
+          "Muted": {
+            "hex": "#956677",
+            "rgb": [
+              149,
+              102,
+              119
+            ],
+            "population": 609
+          },
+          "DarkMuted": {
+            "hex": "#315466",
+            "rgb": [
+              49,
+              84,
+              102
+            ],
+            "population": 1331
+          },
+          "LightMuted": {
+            "hex": "#BAAFBA",
+            "rgb": [
+              186,
+              175,
+              186
+            ],
+            "population": 1463
+          }
+        },
+        "rankedHex": [
+          "#BAAFBA",
+          "#315466",
+          "#956677",
+          "#E8222A",
+          "#04212D",
+          "#D45454"
+        ]
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/SOTR_Desktop_2492x1400.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#C98531",
+            "rgb": [
+              201,
+              133,
+              49
+            ],
+            "population": 54
+          },
+          "DarkVibrant": {
+            "hex": "#807624",
+            "rgb": [
+              128,
+              118,
+              36
+            ],
+            "population": 118
+          },
+          "LightVibrant": {
+            "hex": "#7EA7C1",
+            "rgb": [
+              126,
+              167,
+              193
+            ],
+            "population": 1752
+          },
+          "Muted": {
+            "hex": "#486C83",
+            "rgb": [
+              72,
+              108,
+              131
+            ],
+            "population": 1662
+          },
+          "DarkMuted": {
+            "hex": "#2F4656",
+            "rgb": [
+              47,
+              70,
+              86
+            ],
+            "population": 923
+          },
+          "LightMuted": {
+            "hex": "#C2BABA",
+            "rgb": [
+              194,
+              186,
+              186
+            ],
+            "population": 1746
+          }
+        },
+        "rankedHex": [
+          "#7EA7C1",
+          "#C2BABA",
+          "#486C83",
+          "#2F4656",
+          "#807624",
+          "#C98531"
+        ]
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/corollacross/CRC_MY26_0008_V001.png?fmt=jpeg&fit=crop&qlt=90&wid=500": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#D53344",
+            "rgb": [
+              213,
+              51,
+              68
+            ],
+            "population": 136
+          },
+          "DarkVibrant": {
+            "hex": "#980C11",
+            "rgb": [
+              152,
+              12,
+              17
+            ],
+            "population": 319
+          },
+          "LightVibrant": {
+            "hex": "#E9D28F",
+            "rgb": [
+              233,
+              210,
+              143
+            ],
+            "population": 71
+          },
+          "Muted": {
+            "hex": "#5188A6",
+            "rgb": [
+              81,
+              136,
+              166
+            ],
+            "population": 81
+          },
+          "DarkMuted": {
+            "hex": "#384650",
+            "rgb": [
+              56,
+              70,
+              80
+            ],
+            "population": 341
+          },
+          "LightMuted": {
+            "hex": "#C8C0B7",
+            "rgb": [
+              200,
+              192,
+              183
+            ],
+            "population": 1089
+          }
+        },
+        "rankedHex": [
+          "#C8C0B7",
+          "#384650",
+          "#980C11",
+          "#D53344",
+          "#5188A6",
+          "#E9D28F"
+        ]
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": [
+      "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+      "tcomLight, HelvNeueLight, \"Helvetica Neue Light\", Arial, sans-serif",
+      "Roboto, Arial, sans-serif",
+      "sans-serif"
+    ],
+    "fontSizesPx": [
+      10,
+      12,
+      12.0043,
+      13,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30,
+      32,
+      48
+    ],
+    "fontWeights": [
+      400,
+      600,
+      700
+    ],
+    "lineHeightsPx": [
+      10,
+      12.0043,
+      13,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      30,
+      32,
+      40,
+      56
+    ]
+  },
+  "contrastChecks": [
+    {
+      "fg": "#000000",
+      "bg": "#FFFFFF",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#000000CC",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#000000",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#F6F6F6",
+      "ratio": 19.43,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#F2F2F2",
+      "ratio": 18.75,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#E3DED9",
+      "ratio": 15.71,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#D8D8D8",
+      "ratio": 14.73,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#DFD1BE",
+      "bg": "#000000CC",
+      "ratio": 14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#DFD1BE",
+      "bg": "#000000",
+      "ratio": 14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#542012",
+      "bg": "#FFFFFF",
+      "ratio": 13.18,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#333333",
+      "bg": "#FFFFFF",
+      "ratio": 12.63,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#542012",
+      "bg": "#F2F2F2",
+      "ratio": 11.78,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#333333",
+      "bg": "#F6F6F6",
+      "ratio": 11.69,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#333333",
+      "bg": "#F2F2F2",
+      "ratio": 11.28,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#8CBCFC",
+      "bg": "#000000CC",
+      "ratio": 10.71,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#8CBCFC",
+      "bg": "#000000",
+      "ratio": 10.71,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#542012",
+      "bg": "#E3DED9",
+      "ratio": 9.87,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#333333",
+      "bg": "#E3DED9",
+      "ratio": 9.45,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#542012",
+      "bg": "#D8D8D8",
+      "ratio": 9.25,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#333333",
+      "bg": "#D8D8D8",
+      "ratio": 8.86,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#2B5B59",
+      "ratio": 7.65,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#2C5C5B",
+      "bg": "#FFFFFF",
+      "ratio": 7.52,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#2C5C5B",
+      "bg": "#F2F2F2",
+      "ratio": 6.72,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#286A90",
+      "ratio": 5.9,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#CC0000",
+      "ratio": 5.88,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#FFFFFF",
+      "ratio": 5.66,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#2C5C5B",
+      "bg": "#E3DED9",
+      "ratio": 5.63,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#2C5C5B",
+      "bg": "#D8D8D8",
+      "ratio": 5.28,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#F6F6F6",
+      "ratio": 5.24,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#F2F2F2",
+      "ratio": 5.05,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#000000CC",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#000000",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#FFFFFF",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#CC0000",
+      "ratio": 1.03,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#286A90",
+      "ratio": 1.04,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#DFD1BE",
+      "bg": "#D8D8D8",
+      "ratio": 1.05,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#F6F6F6",
+      "ratio": 1.08,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#F2F2F2",
+      "ratio": 1.11,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#DFD1BE",
+      "bg": "#E3DED9",
+      "ratio": 1.12,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#CC0000",
+      "ratio": 1.19,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#286A90",
+      "ratio": 1.19,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#CC0000",
+      "ratio": 1.29,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#286A90",
+      "ratio": 1.3,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#E3DED9",
+      "ratio": 1.33,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#DFD1BE",
+      "bg": "#F2F2F2",
+      "ratio": 1.33,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#2B5B59",
+      "ratio": 1.35,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#8CBCFC",
+      "bg": "#D8D8D8",
+      "ratio": 1.37,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#D8D8D8",
+      "ratio": 1.42,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#8CBCFC",
+      "bg": "#E3DED9",
+      "ratio": 1.46,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#DFD1BE",
+      "bg": "#FFFFFF",
+      "ratio": 1.49,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#2B5B59",
+      "ratio": 1.55,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#542012",
+      "bg": "#000000CC",
+      "ratio": 1.59,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#542012",
+      "bg": "#000000",
+      "ratio": 1.59,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#333333",
+      "bg": "#2B5B59",
+      "ratio": 1.65,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#333333",
+      "bg": "#000000CC",
+      "ratio": 1.66,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#333333",
+      "bg": "#000000",
+      "ratio": 1.66,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#2B5B59",
+      "ratio": 1.68,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#8CBCFC",
+      "bg": "#F2F2F2",
+      "ratio": 1.75,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#8CBCFC",
+      "bg": "#FFFFFF",
+      "ratio": 1.96,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#333333",
+      "bg": "#286A90",
+      "ratio": 2.13,
+      "passesAA": false,
+      "passesAAA": false
+    }
+  ]
+}
