@@ -1,0 +1,618 @@
+{
+  "url": "https://vivint.com",
+  "timestampIso": "2025-12-25T22:33:27.612Z",
+  "page": {
+    "title": "End of Year Sales on Vivint®️ Home Security | 855.832.1550",
+    "finalUrl": "https://www.vivint.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "notes": [
+      "Request interception enabled (blocking common trackers).",
+      "No suitable raster brand images found for per-image palettes (filtered tiny/trackers/SVG)."
+    ]
+  },
+  "colors": {
+    "extractedFromScreenshot": {
+      "swatches": {
+        "Vibrant": {
+          "hex": "#08DCA8",
+          "rgb": [
+            8,
+            220,
+            168
+          ],
+          "population": 3762
+        },
+        "DarkVibrant": {
+          "hex": "#04A474",
+          "rgb": [
+            4,
+            164,
+            116
+          ],
+          "population": 9
+        },
+        "LightVibrant": {
+          "hex": "#73F4D4",
+          "rgb": [
+            115,
+            244,
+            212
+          ],
+          "population": 40
+        },
+        "Muted": {
+          "hex": "#748C8C",
+          "rgb": [
+            116,
+            140,
+            140
+          ],
+          "population": 1
+        },
+        "DarkMuted": {
+          "hex": "#323C4B",
+          "rgb": [
+            50,
+            60,
+            75
+          ],
+          "population": 152
+        },
+        "LightMuted": {
+          "hex": "#B4BCBC",
+          "rgb": [
+            180,
+            188,
+            188
+          ],
+          "population": 93
+        }
+      },
+      "rankedHex": [
+        "#08DCA8",
+        "#323C4B",
+        "#B4BCBC",
+        "#73F4D4",
+        "#04A474",
+        "#748C8C"
+      ]
+    },
+    "css": {
+      "backgroundColors": [
+        "#F5F5F5",
+        "#FFFFFF",
+        "#05E5AF",
+        "#282A3B",
+        "#D4D4D4",
+        "#282A3B33"
+      ],
+      "textColors": [
+        "#282A3B",
+        "#FFFFFF",
+        "#D4D4D4",
+        "#707070",
+        "#00A073",
+        "#000000"
+      ],
+      "linkColors": [
+        "#282A3B",
+        "#D4D4D4",
+        "#FFFFFF"
+      ],
+      "borderColors": [
+        "#282A3B",
+        "#FFFFFF",
+        "#D4D4D4",
+        "#707070",
+        "#05E5AF",
+        "#00A073",
+        "#F5F5F5",
+        "#000000"
+      ],
+      "accentCandidates": [
+        "#282A3B",
+        "#08DCA8",
+        "#323C4B",
+        "#73F4D4",
+        "#04A474",
+        "#748C8C",
+        "#00A073"
+      ]
+    }
+  },
+  "palettes": {
+    "fromScreenshot": {
+      "swatches": {
+        "Vibrant": {
+          "hex": "#08DCA8",
+          "rgb": [
+            8,
+            220,
+            168
+          ],
+          "population": 3762
+        },
+        "DarkVibrant": {
+          "hex": "#04A474",
+          "rgb": [
+            4,
+            164,
+            116
+          ],
+          "population": 9
+        },
+        "LightVibrant": {
+          "hex": "#73F4D4",
+          "rgb": [
+            115,
+            244,
+            212
+          ],
+          "population": 40
+        },
+        "Muted": {
+          "hex": "#748C8C",
+          "rgb": [
+            116,
+            140,
+            140
+          ],
+          "population": 1
+        },
+        "DarkMuted": {
+          "hex": "#323C4B",
+          "rgb": [
+            50,
+            60,
+            75
+          ],
+          "population": 152
+        },
+        "LightMuted": {
+          "hex": "#B4BCBC",
+          "rgb": [
+            180,
+            188,
+            188
+          ],
+          "population": 93
+        }
+      },
+      "rankedHex": [
+        "#08DCA8",
+        "#323C4B",
+        "#B4BCBC",
+        "#73F4D4",
+        "#04A474",
+        "#748C8C"
+      ]
+    },
+    "fromImages": {}
+  },
+  "typography": {
+    "fontFamilies": [
+      "\"Vivint Circular\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "\"Vivint Sans\", Arial, sans-serif",
+      "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""
+    ],
+    "fontSizesPx": [
+      11,
+      12,
+      14,
+      16,
+      18,
+      24,
+      28,
+      34,
+      42,
+      48
+    ],
+    "fontWeights": [
+      400,
+      500,
+      700
+    ],
+    "lineHeightsPx": [
+      12.3,
+      15,
+      16,
+      18,
+      21,
+      24,
+      26,
+      27,
+      28,
+      30,
+      35,
+      52.5
+    ]
+  },
+  "contrastChecks": [
+    {
+      "fg": "#000000",
+      "bg": "#FFFFFF",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#F5F5F5",
+      "ratio": 19.26,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#D4D4D4",
+      "ratio": 14.16,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#282A3B",
+      "bg": "#FFFFFF",
+      "ratio": 14.14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#282A3B",
+      "ratio": 14.14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#282A3B33",
+      "ratio": 14.14,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#282A3B",
+      "bg": "#F5F5F5",
+      "ratio": 12.97,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#05E5AF",
+      "ratio": 12.83,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#282A3B",
+      "bg": "#D4D4D4",
+      "ratio": 9.54,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#282A3B",
+      "ratio": 9.54,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#282A3B33",
+      "ratio": 9.54,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#282A3B",
+      "bg": "#05E5AF",
+      "ratio": 8.64,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#707070",
+      "bg": "#FFFFFF",
+      "ratio": 4.95,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#F5F5F5",
+      "ratio": 4.54,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#282A3B",
+      "ratio": 4.22,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#282A3B33",
+      "ratio": 4.22,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#D4D4D4",
+      "ratio": 3.34,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#FFFFFF",
+      "ratio": 3.34,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#F5F5F5",
+      "ratio": 3.06,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#05E5AF",
+      "ratio": 3.02,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#282A3B",
+      "ratio": 2.85,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#707070",
+      "bg": "#282A3B33",
+      "ratio": 2.85,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#D4D4D4",
+      "ratio": 2.25,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#00A073",
+      "bg": "#05E5AF",
+      "ratio": 2.04,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#05E5AF",
+      "ratio": 1.63,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#D4D4D4",
+      "ratio": 1.48,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#FFFFFF",
+      "ratio": 1.48,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#282A3B",
+      "ratio": 1.48,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#282A3B33",
+      "ratio": 1.48,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#D4D4D4",
+      "bg": "#F5F5F5",
+      "ratio": 1.35,
+      "passesAA": false,
+      "passesAAA": false
+    }
+  ],
+  "assets": {
+    "screenshotPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1766701999397/screenshot.png",
+    "outputDir": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1766701999397",
+    "images": [
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/screw-driver.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/user-multiple.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/smart-phone.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/headset.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/user-shield.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/settings.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/warning-alert.svg",
+      "https://www.vivint.com/libraries/icons_vdc_2025/all/run-stroke.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/battery-charging.svg",
+      "https://www.vivint.com/libraries/2025-icons-all/2025-shield-person-outline.svg",
+      "https://www.googleadservices.com/pagead/conversion/992258323/?label=y2X7CL7K5qEDEJPSktkD&guid=ON&script=0",
+      "https://cdn.cookielaw.org/logos/b247c2e2-b739-466a-946a-abdfd945818b/01968764-7624-78ea-b346-0c4f1deea621/6f6f5773-48bc-4b3d-9915-70c8d6e0e78f/Vector.png",
+      "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+      "https://bat.bing.net/action/0?ti=5035931&Ver=2&mid=a0ce6113-310f-48e0-bd12-8b2cef5e8918&bo=2&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=End%20of%20Year%20Sales%20on%20Vivint%C2%AE%EF%B8%8F%20Home%20Security%20%7C%20855.832.1550&p=https%3A%2F%2Fwww.vivint.com%2F&r=&lt=1353&evt=pageLoad&sv=2&asc=D&cdb=AQER&rn=861476",
+      "https://bat.bing.net/action/0?ti=5035931&Ver=2&mid=a0ce6113-310f-48e0-bd12-8b2cef5e8918&bo=3&ec=CHEQ&el=Invalid_Users&ev=0&ea=Invalid_Users&en=Y&p=https%3A%2F%2Fwww.vivint.com%2F&sw=800&sh=600&sc=24&nwd=1&evt=custom&asc=D&cdb=AQER&rn=219751",
+      "https://bat.bing.com/action/0?ti=139000554&Ver=2&mid=c376166f-47d9-4921-bdb8-06ce8f4ee795&bo=1&sid=b94826b0e1e111f0815f8bf65928680f&vid=b9485ce0e1e111f09f62797ef3306d66&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=End%20of%20Year%20Sales%20on%20Vivint%C2%AE%EF%B8%8F%20Home%20Security%20%7C%20855.832.1550&p=https%3A%2F%2Fwww.vivint.com%2F&r=&lt=1353&evt=pageLoad&sv=2&cdb=AQER&rn=318683",
+      "https://ib.adnxs.com/setuid?entity=315&code=jkacSVExnwnPCaePyyTlJiM0aDwOPTvriPC-KXf7Kjs&consent=1",
+      "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm&google_sc&google_ula=5153224&process_consent=T&google_hm=jkacSVExnwnPCaePyyTlJiM0aDwOPTvriPC-KXf7Kjs&pi=adx&tdc=ash",
+      "https://www.vivint.com/themes/custom/harmony/favicon.ico",
+      "https://www.vivint.com/themes/custom/harmony/images/apple-touch-icon.png",
+      "https://images.vivintcdn.com/global/vivint.com/social/preview_imageviv.com.jpg"
+    ],
+    "brandImages": [
+      "https://cdn.cookielaw.org/logos/b247c2e2-b739-466a-946a-abdfd945818b/01968764-7624-78ea-b346-0c4f1deea621/6f6f5773-48bc-4b3d-9915-70c8d6e0e78f/Vector.png",
+      "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg"
+    ],
+    "trackingPixels": [
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/screw-driver.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/user-multiple.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/smart-phone.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/headset.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/user-shield.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/settings.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/warning-alert.svg",
+      "https://www.vivint.com/libraries/icons_vdc_2025/all/run-stroke.svg",
+      "https://www.vivint.com/libraries/vivint-vc-icon-v0.4.2/svg/harmony/battery-charging.svg",
+      "https://www.vivint.com/libraries/2025-icons-all/2025-shield-person-outline.svg",
+      "https://www.googleadservices.com/pagead/conversion/992258323/?label=y2X7CL7K5qEDEJPSktkD&guid=ON&script=0",
+      "https://bat.bing.net/action/0?ti=5035931&Ver=2&mid=a0ce6113-310f-48e0-bd12-8b2cef5e8918&bo=2&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=End%20of%20Year%20Sales%20on%20Vivint%C2%AE%EF%B8%8F%20Home%20Security%20%7C%20855.832.1550&p=https%3A%2F%2Fwww.vivint.com%2F&r=&lt=1353&evt=pageLoad&sv=2&asc=D&cdb=AQER&rn=861476",
+      "https://bat.bing.net/action/0?ti=5035931&Ver=2&mid=a0ce6113-310f-48e0-bd12-8b2cef5e8918&bo=3&ec=CHEQ&el=Invalid_Users&ev=0&ea=Invalid_Users&en=Y&p=https%3A%2F%2Fwww.vivint.com%2F&sw=800&sh=600&sc=24&nwd=1&evt=custom&asc=D&cdb=AQER&rn=219751",
+      "https://bat.bing.com/action/0?ti=139000554&Ver=2&mid=c376166f-47d9-4921-bdb8-06ce8f4ee795&bo=1&sid=b94826b0e1e111f0815f8bf65928680f&vid=b9485ce0e1e111f09f62797ef3306d66&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=End%20of%20Year%20Sales%20on%20Vivint%C2%AE%EF%B8%8F%20Home%20Security%20%7C%20855.832.1550&p=https%3A%2F%2Fwww.vivint.com%2F&r=&lt=1353&evt=pageLoad&sv=2&cdb=AQER&rn=318683",
+      "https://ib.adnxs.com/setuid?entity=315&code=jkacSVExnwnPCaePyyTlJiM0aDwOPTvriPC-KXf7Kjs&consent=1",
+      "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm&google_sc&google_ula=5153224&process_consent=T&google_hm=jkacSVExnwnPCaePyyTlJiM0aDwOPTvriPC-KXf7Kjs&pi=adx&tdc=ash",
+      "https://www.vivint.com/themes/custom/harmony/favicon.ico",
+      "https://www.vivint.com/themes/custom/harmony/images/apple-touch-icon.png",
+      "https://images.vivintcdn.com/global/vivint.com/social/preview_imageviv.com.jpg"
+    ],
+    "videos": [
+      "https://www.vivint.com/sites/default/files/video-thumbnails/2025-11/ambienthero_1920x1080_v2_0.mp4",
+      "https://www.vivint.com/sites/default/files/video-thumbnails/2025-12/Horizontal%20Option%202%20%281%29.mp4"
+    ],
+    "stylesheets": [
+      "https://www.vivint.com/sites/default/files/css/css_z7xdh_1-hEztUWNn7QsktOYFUUfYRrgPNZhraM3fuh4.css?delta=0&language=en&theme=harmony&include=eJx1ku1uhSAMhm_I6CWRKj3apFDSlrO5qx9Og9vO9oeS5yVvv1gYzPZpBsNhOe8JzWBFGzbQJHmfIM2E2cOTIkqni6QiNcfg-O5hcfimZD_er0qxww1VgqIVyUZPDJdp15t3dvI9-IaPGyeMBMG4yXpDicCBWhaFxQ-3IqWWrmfRBEwf2ElRiXVpZYJKNeQuGKXC2Djzjx4u7iLsdDufhfyahLno7shMef0Thq_xFlBYFcpmU9RagMebjDWXOjPZhnGw3RzTuZOvTAHTjPHIuoPG6YrDG86P1ul0xREZUxviGNGB2EaXdWX899m15xf9OF5g20rC8fwhn-Z236Q",
+      "https://www.vivint.com/sites/default/files/css/css_KMTmqWO_f9qE3L1kE-S3dg-0N0W9gNQwVkOQv7Zfg98.css?delta=1&language=en&theme=harmony&include=eJx1ku1uhSAMhm_I6CWRKj3apFDSlrO5qx9Og9vO9oeS5yVvv1gYzPZpBsNhOe8JzWBFGzbQJHmfIM2E2cOTIkqni6QiNcfg-O5hcfimZD_er0qxww1VgqIVyUZPDJdp15t3dvI9-IaPGyeMBMG4yXpDicCBWhaFxQ-3IqWWrmfRBEwf2ElRiXVpZYJKNeQuGKXC2Djzjx4u7iLsdDufhfyahLno7shMef0Thq_xFlBYFcpmU9RagMebjDWXOjPZhnGw3RzTuZOvTAHTjPHIuoPG6YrDG86P1ul0xREZUxviGNGB2EaXdWX899m15xf9OF5g20rC8fwhn-Z236Q"
+    ],
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-032NVJ3T84&cx=c&gtm=4e5ca1",
+      "https://ct.pinterest.com/static/ct/token_create.js",
+      "https://www.youtube.com/iframe_api",
+      "https://cdn.segment.com/next-integrations/actions/braze-cloud-plugins/bb453d0be139097650de.js",
+      "https://s.pinimg.com/ct/lib/main.817db39b.js",
+      "https://www.youtube.com/s/player/50cc0679/www-widgetapi.vflset/www-widgetapi.js",
+      "https://connect.facebook.net/signals/config/1493385010875839?v=2.9.248&r=stable&domain=www.vivint.com&hme=17590b9a2e1b26755cdc9ecb401f9f46bca979d3ccce95d786db0936167af731&ex_m=94%2C156%2C134%2C20%2C67%2C68%2C127%2C63%2C43%2C128%2C72%2C62%2C10%2C141%2C80%2C15%2C93%2C28%2C122%2C115%2C70%2C73%2C121%2C138%2C102%2C143%2C7%2C3%2C4%2C6%2C5%2C2%2C81%2C91%2C144%2C224%2C167%2C57%2C226%2C227%2C50%2C183%2C27%2C69%2C232%2C231%2C170%2C30%2C56%2C9%2C59%2C87%2C88%2C89%2C95%2C118%2C29%2C26%2C120%2C117%2C116%2C135%2C71%2C137%2C136%2C45%2C55%2C111%2C14%2C140%2C40%2C213%2C215%2C177%2C23%2C24%2C25%2C17%2C18%2C39%2C35%2C37%2C36%2C76%2C82%2C86%2C100%2C126%2C129%2C41%2C101%2C21%2C19%2C107%2C64%2C33%2C131%2C130%2C132%2C123%2C22%2C32%2C54%2C99%2C139%2C65%2C16%2C133%2C104%2C31%2C193%2C163%2C284%2C211%2C154%2C196%2C189%2C164%2C97%2C119%2C75%2C109%2C49%2C44%2C103%2C42%2C108%2C114%2C53%2C60%2C113%2C48%2C51%2C47%2C90%2C142%2C0%2C112%2C13%2C110%2C11%2C1%2C52%2C83%2C58%2C61%2C106%2C79%2C78%2C145%2C146%2C84%2C85%2C8%2C92%2C46%2C124%2C77%2C74%2C66%2C105%2C96%2C38%2C125%2C34%2C98%2C12%2C147",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://js.adsrvr.org/up_loader.3.0.0.js",
+      "https://tags.creativecdn.com/Ayje6XSNSCONnyV38Xkt.js",
+      "https://www.redditstatic.com/ads/pixel.js",
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://bat.bing.com/bat.js",
+      "https://cdn.taboola.com/libtrc/unip/1071383/tfa.js",
+      "https://cdn.segment.com/analytics.js/v1/jKTzamrwhua6MMEL192GiddPcn5Wh8dC/analytics.min.js",
+      "https://widget.intercom.io/widget/etgl9gtb",
+      "https://ads.nextdoor.com/public/pixel/ndp.js",
+      "https://tags.srv.stackadapt.com/events.js",
+      "https://storage.cloud.kargo.com/kds/kds-events.min.js",
+      "https://adserver.cluep.com/conv?c=con_lHd9TBW735",
+      "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "https://collector-52316.us.tvsquared.com/tv2track.js",
+      "https://www.googletagmanager.com/gtag/js?id=DC-15257928&cx=c&gtm=4e5ca1",
+      "https://ob.cheqzone.com/i/4b801dde46aa6849622ba79dc23a0e62.js",
+      "https://www.upsellit.com/active/vivint.jsp",
+      "https://api.huckabuy.com/s/d3d3LnZpdmludC5jb20=/install.js",
+      "https://a.mgid.com/mgsensor.js?d=1766702003629",
+      "https://sc-static.net/scevent.min.js",
+      "https://dynamic.criteo.com/js/ld/ld.js?a=24573",
+      "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C3DOEKATO1NL4N942B0G&lib=ttq",
+      "https://www.googletagmanager.com/gtag/js?id=G-JWP5ZCTZCS",
+      "https://www.googletagmanager.com/gtag/js?id=G-JWP5ZCTZCS&cx=c&gtm=4e5ca1",
+      "https://s.pinimg.com/ct/core.js",
+      "https://static.ads-twitter.com/uwt.js",
+      "https://track.securedvisit.com/js/sv.js",
+      "https://static.hotjar.com/c/hotjar-284117.js?sv=5",
+      "https://solutions.invocacdn.com/js/invoca-latest.min.js",
+      "https://s.axon.ai/pixel.js",
+      "https://res4.applovin.com/p/l/loader.iife.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-992258323&cx=c&gtm=4e5ca1",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.js",
+      "https://www.googletagmanager.com/gtm.js?id=GTM-FD7H",
+      "https://www.vivint.com/sites/default/files/js/js_nmKP7N2XqlVAKD7uNfHRodsSOZUcxvGzdchXt_O61j0.js?scope=header&delta=0&language=en&theme=harmony&include=eJyFketugzAMhV-oKY8UGWJSd0kc2YGVPf3MiqBqV_UPFudzfDm-gGQuSwe5JyzNzxSQT5dNHbi0VY1CYRdHumFw7YJwaFt0VK44NKdzPBAKe0GtXJRm9FunnVvD0qgt3iqOh_yFS88gwQdsVpK47ChjIPBKJSZ8GnhDyUQ5RA6QPNkqAlbJZqhcp_rIUQr9HC-qcJiG5gcQnhTTDu6Vn5rONNPDQvdfN0CuQLHoW-Dw9mDrTuWlVOJI5VlUjNmcczbrSAkdTMF8HVAdVPqU3ASovclUXc3-W9Fj7jGs6y52ig5vZmExL6_6L9_i6Rv7kSV3WzxjwrX72U4JlPSsMOPHpMbR7vs2LducEF_5-vkF7Pwd1A",
+      "https://play.vidyard.com/embed/v4.js",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.sync.js",
+      "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "https://cdn.optimizely.com/public/12265111463/s/linkedProjects.js",
+      "https://cdn.jsdelivr.net/npm/@segment/analytics-consent-wrapper-onetrust@1.1.1/dist/umd/analytics-onetrust.umd.min.js",
+      "https://wwwassets.s3.amazonaws.com/global/vivint.com/promo/banner/offer-testing-array.js",
+      "https://obs.cheqzone.com/ct?id=12850&url=https%3A%2F%2Fwww.vivint.com%2F&sf=0&tpi=&ch=&uvid=&tsf=0&tsfmi=&tsfu=&cb=1766702002198&hl=2&op=0&ag=3551713781&rand=138865119049208160007502019187202065107969775905890697950277986920915721716278807151879124&fs=1440x900&fst=1440x900&np=macintel&nv=google%20inc.&ref=&ss=800x600&nc=0&at=&di=W1siZWYiLDI2MTZdLFsiYWJuY2giLDVdLFstMTAsIi0iXSxbLTEzLCItIl0sWy0xNCwiLSJdLFstMjEsIi0iXSxbLTI1LCItIl0sWy0yOSwiLSJdLFstNTIsIi0iXSxbLTExLCJ7XCJ0XCI6XCJcIixcIm1cIjpbXCJkZXNjcmlwdGlvblwiLFwib2c6dGl0bGVcIl19Il0sWy0zNSwiWzE3NjY3MDIwMDIxMDQsNl0iXSxbLTU2LCJwb3J0cmFpdC1wcmltYXJ5Il0sWy03MiwiRXhVPSJdLFstMjMsIisiXSxbLTI2LCJ7XCJ0amhzXCI6MjYwMzU0MzQsXCJ1amhzXCI6MTcyNzE4NDYsXCJqaHNsXCI6NDI5NDk2NzI5Nn0iXSxbLTM0LCItIl0sWy00NSwiNjIwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCw2MzAsNTcxLDQ5Myw2MDgsNzkyLDY4OCwwLDAsMCwwLDAiXSxbLTQ3LCJBbWVyaWNhL0NoaWNhZ28sZW4tVVMsbGF0bixncmVnb3J5Il0sWy0yMCwiLSJdLFstMjQsIltdIl0sWy01MCwiLSJdLFstNTksImRlZmF1bHQiXSxbLTE5LCJbMjIsMjIsMjIsMjIsMCwwLDEsMjQsMjQsXCItXCIsODAwLDYwMCw4MDAsNjAwLDc1Niw1NTYsMTQ0MCw5MDAsMCwwLDAsMCxcIi1cIixcIi1cIiwxNDQwLDkwMCwwXSJdLFstMjIsIltcIm5cIixcIm5cIl0iXSxbLTMxLCJ0cnVlIl0sWy0zMiwiMCJdLFstMzMsIi0iXSxbLTU1LCIxIl0sWy02MiwiODAiXSxbLTY2LCJnZW9sb2NhdGlvbixjaHVhZnVsbHZlcnNpb25saXN0LGNyb3Nzb3JpZ2luaXNvbGF0ZWQsc2NyZWVud2FrZWxvY2ssb25kZXZpY2VzcGVlY2hyZWNvZ25pdGlvbix0cmFuc2xhdG9yLHB1YmxpY2tleWNyZWRlbnRpYWxzZ2V0LHNoYXJlZHN0b3JhZ2VzZWxlY3R1cmwsY2h1YWFyY2gsYmx1ZXRvb3RoLGNvbXB1dGVwcmVzc3VyZSxjaHByZWZlcnNyZWR1Y2VkdHJhbnNwYXJlbmN5LGRlZmVycmVkZmV0Y2gsdXNiLGNoc2F2ZWRhdGEscHVibGlja2V5Y3JlZGVudGlhbHNjcmVhdGUsc2hhcmVkc3RvcmFnZSxkZWZlcnJlZGZldGNobWluaW1hbCxydW5hZGF1Y3Rpb24sY2hkb3dubGluayxjaHVhZm9ybWZhY3RvcnMsb3RwY3JlZGVudGlhbHMscGF5bWVudCxjaHVhLGNodWFtb2RlbCxjaGVjdCxhdXRvcGxheSxjYW1lcmEsbGFuZ3VhZ2VkZXRlY3Rvcixwcml2YXRlc3RhdGV0b2tlbmlzc3VhbmNlLGRpZ2l0YWxjcmVkZW50aWFsc2dldCxhY2NlbGVyb21ldGVyLGNodWFwbGF0Zm9ybXZlcnNpb24saWRsZWRldGVjdGlvbixwcml2YXRlYWdncmVnYXRpb24saW50ZXJlc3Rjb2hvcnQsY2h2aWV3cG9ydGhlaWdodCxjYXB0dXJlZHN1cmZhY2Vjb250cm9sLGxvY2FsZm9udHMsY2h1YXBsYXRmb3JtLG1pZGksY2h1YWZ1bGx2ZXJzaW9uLHhyc3BhdGlhbHRyYWNraW5nLGNsaXBib2FyZHJlYWQsZ2FtZXBhZCxkaXNwbGF5Y2FwdHVyZSxrZXlib2FyZG1hcCxqb2luYWRpbnRlcmVzdGdyb3VwLGFyaWFub3RpZnksY2h3aWR0aCxjaHByZWZlcnNyZWR1Y2VkbW90aW9uLGJyb3dzaW5ndG9waWNzLGVuY3J5cHRlZG1lZGlhLGxvY2FsbmV0d29ya2FjY2VzcyxneXJvc2NvcGUsc2VyaWFsLGNocnR0LGNodWFtb2JpbGUsd2luZG93bWFuYWdlbWVudCx1bmxvYWQsY2hkcHIsY2hwcmVmZXJzY29sb3JzY2hlbWUscmVjb3JkYWRhdWN0aW9uZXZlbnRzLGNodWF3b3c2NCxhdHRyaWJ1dGlvbnJlcG9ydGluZyxmdWxsc2NyZWVuLGlkZW50aXR5Y3JlZGVudGlhbHNnZXQscHJpdmF0ZXN0YXRldG9rZW5yZWRlbXB0aW9uLGhpZCxzdW1tYXJpemVyLGNodWFiaXRuZXNzLHN0b3JhZ2VhY2Nlc3Msc3luY3hocixjaGRldmljZW1lbW9yeSxjaHZpZXdwb3J0d2lkdGgscGljdHVyZWlucGljdHVyZSxtYWduZXRvbWV0ZXIsY2xpcGJvYXJkd3JpdGUsbWljcm9waG9uZSJdLFstNjgsIi0iXSxbODgsIl9fY2ZCZWFjb24iXSxbLTM2LCJbXCI0LzNcIixcIjQvM1wiXSJdLFstNDgsIltcIi1cIixcIi1cIixcIi1cIixcIi1cIixcIi1cIl0iXSxbLTQ5LCItIl0sWy02OSwiTWFjSW50ZWx8R29vZ2xlIEluYy58OHwxMHx8MCJdLFstMzgsImksLTEsLTEsNDMwLDAsMCwwLDAsMCwxMTMsLTEsMCwxMDM2LDEwMzYsMTg3MCwxODcwIl0sWy00MywiMDAwMDAwMDEwMTAwMDAwMTEwMTExMDExMDExMTExMDEwMDAwMDEwMTEwIl0sWy00NCwiMCwwLDAsNSJdLFstNTcsIldFMFplRXRMV0VBWFZGd1pFVkZOVFVsS0F4WVdWbHNYV2xGY1NFTldWMXdYV2xaVUZsQVdEVnNCQ1FoZFhWd05EMWhZRHdFTkFBOExDMXRZRGdCZFdnc0tXQWxjRHdzWFUwb0RDQU1CQ1FBSkRSQVZXRTBaU3hrUlVVMU5TVW9ERmhaV1d4ZGFVVnhJUTFaWFhCZGFWbFFXVUJZTld3RUpDRjFkWEEwUFdGZ1BBUTBBRHdzTFcxZ09BRjFhQ3dwWUNWd1BDeGRUU2dNSUF3RVBDQUFNRUE9PSJdLFstNjEsIntcIndnc2xcIjpcIjQ7cGFja2VkXzR4OF9pbnRlZ2VyX2RvdF9wcm9kdWN0O3VucmVzdHJpY3RlZF9wb2ludGVyX3BhcmFtZXRlcnM7cG9pbnRlcl9jb21wb3NpdGVfYWNjZXNzO3JlYWRvbmx5X2FuZF9yZWFkd3JpdGVfc3RvcmFnZV90ZXh0dXJlcztcIixcInBjZlwiOlwiYmdyYTh1bm9ybVwifSJdLFstNzEsImEwMTAwMTAxMTAwMTAwMTAxMDAwMTAxMDAxMTExMTAxMDAwMDEwIl0sWzEyLCJ7XCJlXCI6MCxcIndnbFwiOjF9Il0sWy0zLCJbXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCJdIl0sWy0yNywiWzEwMCw4LjgsMCxcIjRnXCIsbnVsbF0iXSxbLTM3LCItMTA5LTY2LTcwLSJdLFstNDIsIjg4MzM5OTAxNiJdLFstNjAsMjA2XSxbLTY0LCJbMCxcIlwiLFtdXSJdLFstNjUsIi0iXSxbLTczLCJFaFE9Il0sWy03NCwiMCwwIl0sWy0xLCItIl0sWy0yLCI0LE55azl4TUVCSWdUQW1FVVZCQUNVNklvb0lvZ3EydDR0RE80a0RqMDI0YmJhZDI3RzRISEZERTJYYm9kbXhwUlJGRjVwa0VDQUVDSkdTNEpIYzZRMVh0NmY5YmRlNjVPWWtCMGQiXSxbLTgsIi0iXSxbLTE1LCItIl0sWy0xNiwiMCJdLFstMTcsIjEwIl0sWy0yOCwiZW4tVVMiXSxbLTQxLCItIl0sWy00NiwiMCJdLFstNTEsIi0iXSxbLTUzLCIwMDEiXSxbLTU4LCItIl0sWy02NywiLSJdLFstNzAsIi0iXSxbLTYsIntcIndcIjpbXCIwXCIsXCJkYXRhTGF5ZXJcIixcImdldERvbWFpbk5hbWVcIixcImluaXRMaWJyYXJ5RGVsYXlcIixcInNldFRyaWRcIixcInRyYWNrXCIsXCJjcmVhdGVDdGlkXCIsXCIkXCIsXCJqUXVlcnlcIixcImRydXBhbFNldHRpbmdzXCIsXCJEcnVwYWxcIixcIkNvb2tpZXNcIixcIk1vZGVybml6clwiLFwiYXBwbHlTY3JvbGxcIixcImNhblNldENvb2tpZUNhdGVnb3J5XCIsXCJjb29raWVzQnlDYXRlZ29yeVwiLFwiZ2V0Q29va2llQ29uc2VudEdyb3Vwc1wiLFwiZ2V0QmFubmVyT2Zmc2V0XCIsXCJnZXRTZWNvbmRhcnlOYXZPZmZzZXRcIixcImdldEVsZW1lbnRDZW50ZXJPZmZzZXRcIixcImdldEhlYWRlck9mZnNldFwiLFwiZ2V0VXJsUGFyYW1ldGVyXCIsXCJzZWdtZW50VHJhY2tcIixcInRlYWxpdW1UcmFja1wiLFwidml2aW50UHVzaER5bmFtaWNDb29raWVcIixcInZpdmludFNldENvb2tpZVwiLFwidml2aW50RGVidWdcIixcInZpdmludFRocm90dGxlXCIsXCJ3YWl0Rm9yTGlicmFyeVwiLFwid2FpdEZvckVsXCIsXCJ2aXZpbnRFeHBvc2VTZXNzaW9uSnNvblwiLFwib25lVHJ1c3RDYXRlZ29yeURhdGFcIixcInV0YWdfZGF0YVwiLFwiaXNTb2xhclBhdGhcIixcIm5ld1RyaWRTZXRcIixcImxpYnJhcnlEZWxheVwiLFwiYXdhaXRMaWJyYXJ5RGVsYXlcIixcImF3YWl0VHJpZFByb21pc2VcIixcIm9ialwiLFwicHZpZFwiLFwidmlkeWFyZEVtYmVkXCIsXCJzZXRJbW1lZGlhdGVcIixcImNsZWFySW1tZWRpYXRlXCIsXCJWaWR5YXJkVjRcIixcIlZpZHlhcmRcIixcInNjcmlwdFwiLFwiT3B0YW5vbldyYXBwZXJcIixcImdldENvbnNlbnRlZENhdGVnb3JpZXNcIixcImhhc0NvbnNlbnRlZFwiLFwiZ2V0Q29va2llVmFsdWVcIl0sXCJuXCI6W10sXCJkXCI6W119Il0sWy03LCItIl0sWy0xMiwibnVsbCJdLFstMzAsIltcInZcIiwwXSJdLFstNTQsIntcImhcIjpbXCJfM1wiLFwiMjg3Mjg5OTMyMFwiLFwiMzY4MDM3Nzk5MlwiLFwiNzUwNTYyNzQyXCIsXCIyOTc4NTQ0NzQwXCIsXCIyOTA2MDgyNTY3XCJdLFwiZFwiOltdLFwiYlwiOltcIjE3NzI2MjEzNDlcIixcIjc5NTM5NTcwOVwiLFwiNDAwNTY5MTMzNVwiLFwiMTQxNDUxOTczXCIsXCIzNjU0MDU0MDY0XCIsXCIxNDE0NTE5NzNcIixcIjM1ODY5ODcyNDFcIixcIjM5NzEwOTg2NzNcIixcIjM0MjA1MTA4OTZcIixcIjMwNjg5NzExODZcIixcIjI3NzEzMjI5NDJcIixcIjMzNzA4MzAwNzBcIixcIjE2NzcxMzU2MDhcIixcIjMzNzA4MzAwNzBcIixcIjI2MDkxODg5MlwiLFwiMzk3MTA5ODY3M1wiLFwiNDQ1NjAwNDQ2XCIsXCIzMDY4OTcxMTg2XCIsXCIyNzkwMTk5NzdcIixcIjIyMjk2MTMwNjJcIixcIjI2MDExNTU5NDhcIixcIjIyMjk2MTMwNjJcIixcIjExNzk4NDc3NDZcIixcIjM5NzEwOTg2NzNcIixcIjE3MzUyMDA4NjdcIixcIjMwNjg5NzExODZcIl0sXCJzXCI6MX0iXSxbLTYzLCIyIl0sWyJibmNoIiwxMDBdLFstNCwiLSJdLFstNSwiLSJdLFstOSwiKyJdLFstMTgsIlswLDAsMCwxXSJdLFstMzksIltcIjIwMDMwMTA3XCIsMixcIkdlY2tvXCIsXCJOZXRzY2FwZVwiLFwiTW96aWxsYVwiLG51bGwsbnVsbCx0cnVlLDgsZmFsc2UsbnVsbCw1LHRydWUsdHJ1ZSxudWxsLDAsdHJ1ZSx0cnVlLHRydWUsdHJ1ZV0iXSxbLTQwLCIzMyJdLFsiZGRiIiwiMCw1LDAsMCwwLDEsMCwwLDAsMSwwLDAsMCwwLDEsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMiwwLDAsMCwwLDAsMSwwLDE2LDAsOCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsNDQsMCwxLDAsMywwLDAsMCwwLDAsMCwwLDAsMCwwLDAiXSxbImNiIiwiMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAiXV0%3D&dep=0&pre=0&sdd=&cri=PwVnICl7Rd&pto=1889&ver=65&gac=-&mei=&ap=&fe=1&duid=1.1766702002.StAQQOzQEG35B152&suid=1.1766702002.RVpKbMShp095Jk7a&tuid=1.1766702002.9sMwqrrTcHcwGZ70&fbc=-&gtm=WyJ0cmFjayJd&it=66%2C1002%2C783&fbcl=-&gacl=-&gacsd=-&rtic=-&rtict=-&bgc=-&spa=1&urid=0&ab=&sck=-&io=aGA2Og%3D%3D",
+      "https://cdn.cookielaw.org/scripttemplates/202508.1.0/otBannerSdk.js",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.94.js?utv=ut4.51.202508292242",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.50.js?utv=ut4.51.202501021838",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.68.js?utv=ut4.51.202412112248",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.69.js?utv=ut4.51.202412112248",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.80.js?utv=ut4.51.202412112248",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.36.js?utv=ut4.51.202512161556",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.220.js?utv=ut4.51.202505051551",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.228.js?utv=ut4.51.202507292121",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.234.js?utv=ut4.51.202412171545",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.240.js?utv=ut4.51.202508292046",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.250.js?utv=ut4.51.202204291916",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.253.js?utv=ut4.51.202410102054",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.306.js?utv=ut4.51.202511051552",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.308.js?utv=ut4.51.202412112130",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.311.js?utv=ut4.51.202505281537",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.330.js?utv=ut4.51.202412272112",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.336.js?utv=ut4.51.202412122356",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.339.js?utv=ut4.51.202412132157",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.340.js?utv=ut4.51.202412132157",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.342.js?utv=ut4.51.202511041955",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.344.js?utv=ut4.51.202510292228",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.350.js?utv=ut4.51.202502252217",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.356.js?utv=ut4.51.202509172017",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.365.js?utv=ut4.51.202504242042",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.366.js?utv=ut4.51.202504031545",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.367.js?utv=ut4.51.202504222106",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.368.js?utv=ut4.51.202504222106",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.369.js?utv=ut4.51.202509172004",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.370.js?utv=ut4.51.202504222106",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.371.js?utv=ut4.51.202504251609",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.391.js?utv=ut4.51.202510232013",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.396.js?utv=ut4.51.202512171617",
+      "https://tags.tiqcdn.com/utag/vivint/main/prod/utag.397.js?utv=ut4.51.202512181810",
+      "https://pagead2.googlesyndication.com/pagead/conversion/992258323/?random=1766702003615&cv=11&fst=1766702003615&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be5ca1v896958297za200zb6134373zd6134373xec&gcs=G100&gcd=13u3u3u3u5l1&dma_cps=-&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115583767~115938466~115938469~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.vivint.com%2F&label=y2X7CL7K5qEDEJPSktkD&gtm_ee=1&frm=0&tiba=End%20of%20Year%20Sales%20on%20Vivint%C2%AE%EF%B8%8F%20Home%20Security%20%7C%20855.832.1550&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dconversion&rfmt=3&fmt=4",
+      "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=vivint/main/202512181810&cb=1766702003828",
+      "https://res4.applovin.com/p/104/b/bs.c9e1074f5b3f9fc8ea15d152add07294-1.iife.js",
+      "https://res4.applovin.com/p/104/hs/hs.iife.js",
+      "https://bat.bing.com/p/action/5035931.js",
+      "https://bat.bing.com/p/action/139000554.js",
+      "https://solutions.invocacdn.com/js/networks/761/3565862258/tag-live.js",
+      "https://app.upsellit.com/utility/session_data.jsp?extended=false&si=v1cs0d_1766702004",
+      "https://ads.nextdoor.com/v2/public/pixel/advmtch.js",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/992258323/?random=1766702004595&cv=11&fst=1766702004595&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v896958297za200zb6134373zd6134373xec&gcd=13v3v3v3v5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115583767~115938466~115938469~116184927~116184929~116251938~116251940&frm=0&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&auid=1534217741.1766702002&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=IA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/992258323/?random=1766702004600&cv=11&fst=1766702004600&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v896958297za200zb6134373zd6134373xec&gcd=13v3v3v3v5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115583767~115938466~115938469~116184927~116184929~116251938~116251940&frm=0&did=dYmQxMT&gdid=dYmQxMT&hn=www.googleadservices.com&npa=0&auid=1534217741.1766702002&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dgtag.config%3Benable_event_matching_conversions%3Dfalse&rfmt=3&fmt=4",
+      "https://www.vivint.com/sites/default/files/js/js_-qamz0cKNvZdEEvlhnT-eNNDrVOROHCTtQ2MZB0Ak88.js?scope=footer&delta=0&language=en&theme=harmony&include=eJyFketugzAMhV-oKY8UGWJSd0kc2YGVPf3MiqBqV_UPFudzfDm-gGQuSwe5JyzNzxSQT5dNHbi0VY1CYRdHumFw7YJwaFt0VK44NKdzPBAKe0GtXJRm9FunnVvD0qgt3iqOh_yFS88gwQdsVpK47ChjIPBKJSZ8GnhDyUQ5RA6QPNkqAlbJZqhcp_rIUQr9HC-qcJiG5gcQnhTTDu6Vn5rONNPDQvdfN0CuQLHoW-Dw9mDrTuWlVOJI5VlUjNmcczbrSAkdTMF8HVAdVPqU3ASovclUXc3-W9Fj7jGs6y52ig5vZmExL6_6L9_i6Rv7kSV3WzxjwrX72U4JlPSsMOPHpMbR7vs2LducEF_5-vkF7Pwd1A",
+      "https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.7.1/svg.min.js",
+      "https://www.vivint.com/sites/default/files/js/js_QGxOzyXwHj9pRi0710Vlcx4vkJySzLCcTNZMFIzdHvY.js?scope=footer&delta=2&language=en&theme=harmony&include=eJyFketugzAMhV-oKY8UGWJSd0kc2YGVPf3MiqBqV_UPFudzfDm-gGQuSwe5JyzNzxSQT5dNHbi0VY1CYRdHumFw7YJwaFt0VK44NKdzPBAKe0GtXJRm9FunnVvD0qgt3iqOh_yFS88gwQdsVpK47ChjIPBKJSZ8GnhDyUQ5RA6QPNkqAlbJZqhcp_rIUQr9HC-qcJiG5gcQnhTTDu6Vn5rONNPDQvdfN0CuQLHoW-Dw9mDrTuWlVOJI5VlUjNmcczbrSAkdTMF8HVAdVPqU3ASovclUXc3-W9Fj7jGs6y52ig5vZmExL6_6L9_i6Rv7kSV3WzxjwrX72U4JlPSsMOPHpMbR7vs2LducEF_5-vkF7Pwd1A",
+      "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+    ],
+    "fonts": [
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintSans-Regular.woff2",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Light.woff2",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Light.woff",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Medium.woff2",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Medium.woff",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Regular.woff2",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Regular.woff",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Bold.woff2",
+      "https://www.vivint.com/themes/custom/harmony/dist/fonts/VivintCircular-Bold.woff"
+    ],
+    "downloadedImagePaths": []
+  }
+}
