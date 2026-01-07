@@ -1,0 +1,1209 @@
+{
+  "url": "https://toyota.com",
+  "timestampIso": "2025-12-31T04:28:34.009Z",
+  "page": {
+    "title": "New Cars, Trucks, SUVs & Hybrids | Toyota Official Site",
+    "finalUrl": "https://www.toyota.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "notes": [
+      "Request interception enabled (blocking common trackers)."
+    ]
+  },
+  "colors": {
+    "extractedFromScreenshot": {
+      "swatches": {
+        "Vibrant": {
+          "hex": "#DD3741",
+          "rgb": [
+            221,
+            55,
+            65
+          ],
+          "population": 932
+        },
+        "DarkVibrant": {
+          "hex": "#464321",
+          "rgb": [
+            70,
+            67,
+            33
+          ],
+          "population": 2582
+        },
+        "LightVibrant": {
+          "hex": "#ECF4FC",
+          "rgb": [
+            236,
+            244,
+            252
+          ],
+          "population": 1
+        },
+        "Muted": {
+          "hex": "#998880",
+          "rgb": [
+            153,
+            136,
+            128
+          ],
+          "population": 14089
+        },
+        "DarkMuted": {
+          "hex": "#5E5240",
+          "rgb": [
+            94,
+            82,
+            64
+          ],
+          "population": 52889
+        },
+        "LightMuted": {
+          "hex": "#D2BAA3",
+          "rgb": [
+            210,
+            186,
+            163
+          ],
+          "population": 2288
+        }
+      },
+      "rankedHex": [
+        "#5E5240",
+        "#998880",
+        "#464321",
+        "#D2BAA3",
+        "#DD3741",
+        "#ECF4FC"
+      ]
+    },
+    "css": {
+      "backgroundColors": [
+        "#FFFFFF",
+        "#000000CC",
+        "#000000",
+        "#D8D8D8",
+        "#F2F2F2",
+        "#E3DED9",
+        "#F6F6F6",
+        "#2B5B59",
+        "#286A90",
+        "#E0E0DB",
+        "#B6B6AC",
+        "#C3C5C7",
+        "#83A2B0",
+        "#9E8660",
+        "#B9AD9F",
+        "#FBFBFB",
+        "#62573A",
+        "#3E3A3B"
+      ],
+      "textColors": [
+        "#000000",
+        "#FFFFFF",
+        "#E10A1D",
+        "#CA1F00",
+        "#767676"
+      ],
+      "linkColors": [
+        "#000000",
+        "#E10A1D",
+        "#FFFFFF"
+      ],
+      "borderColors": [
+        "#000000",
+        "#FFFFFF",
+        "#E10A1D",
+        "#F6F6F6",
+        "#767676",
+        "#D8D8D8",
+        "#CA1F00"
+      ],
+      "accentCandidates": [
+        "#E10A1D",
+        "#5E5240",
+        "#998880",
+        "#464321",
+        "#D2BAA3",
+        "#DD3741",
+        "#CA1F00"
+      ]
+    }
+  },
+  "palettes": {
+    "fromScreenshot": {
+      "swatches": {
+        "Vibrant": {
+          "hex": "#DD3741",
+          "rgb": [
+            221,
+            55,
+            65
+          ],
+          "population": 932
+        },
+        "DarkVibrant": {
+          "hex": "#464321",
+          "rgb": [
+            70,
+            67,
+            33
+          ],
+          "population": 2582
+        },
+        "LightVibrant": {
+          "hex": "#ECF4FC",
+          "rgb": [
+            236,
+            244,
+            252
+          ],
+          "population": 1
+        },
+        "Muted": {
+          "hex": "#998880",
+          "rgb": [
+            153,
+            136,
+            128
+          ],
+          "population": 14089
+        },
+        "DarkMuted": {
+          "hex": "#5E5240",
+          "rgb": [
+            94,
+            82,
+            64
+          ],
+          "population": 52889
+        },
+        "LightMuted": {
+          "hex": "#D2BAA3",
+          "rgb": [
+            210,
+            186,
+            163
+          ],
+          "population": 2288
+        }
+      },
+      "rankedHex": [
+        "#5E5240",
+        "#998880",
+        "#464321",
+        "#D2BAA3",
+        "#DD3741",
+        "#ECF4FC"
+      ]
+    },
+    "fromImages": {
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/TMM_FY26_0035_V001_Desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#DF1E2B",
+            "rgb": [
+              223,
+              30,
+              43
+            ],
+            "population": 369
+          },
+          "DarkVibrant": {
+            "hex": "#6F1C27",
+            "rgb": [
+              111,
+              28,
+              39
+            ],
+            "population": 213
+          },
+          "LightVibrant": {
+            "hex": "#E8AAAE",
+            "rgb": [
+              232,
+              170,
+              174
+            ],
+            "population": 253
+          },
+          "Muted": {
+            "hex": "#737A73",
+            "rgb": [
+              115,
+              122,
+              115
+            ],
+            "population": 2058
+          },
+          "DarkMuted": {
+            "hex": "#2E3846",
+            "rgb": [
+              46,
+              56,
+              70
+            ],
+            "population": 1206
+          },
+          "LightMuted": {
+            "hex": "#B1ADB4",
+            "rgb": [
+              177,
+              173,
+              180
+            ],
+            "population": 1293
+          }
+        },
+        "rankedHex": [
+          "#737A73",
+          "#B1ADB4",
+          "#2E3846",
+          "#DF1E2B",
+          "#E8AAAE",
+          "#6F1C27"
+        ],
+        "downloadedPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/665f6f3198708f7a93de2c2a15e41c27a953980ca9d2dc1b80d8ae7b72f7d2da.avif"
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2025/accessories_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#D47C51",
+            "rgb": [
+              212,
+              124,
+              81
+            ],
+            "population": 1593
+          },
+          "DarkVibrant": {
+            "hex": "#A46640",
+            "rgb": [
+              164,
+              102,
+              64
+            ],
+            "population": 1440
+          },
+          "LightVibrant": {
+            "hex": "#E48C64",
+            "rgb": [
+              228,
+              140,
+              100
+            ],
+            "population": 6
+          },
+          "Muted": {
+            "hex": "#897C59",
+            "rgb": [
+              137,
+              124,
+              89
+            ],
+            "population": 1164
+          },
+          "DarkMuted": {
+            "hex": "#3B2426",
+            "rgb": [
+              59,
+              36,
+              38
+            ],
+            "population": 1203
+          },
+          "LightMuted": {
+            "hex": "#CCB4A4",
+            "rgb": [
+              204,
+              180,
+              164
+            ],
+            "population": 1
+          }
+        },
+        "rankedHex": [
+          "#D47C51",
+          "#A46640",
+          "#3B2426",
+          "#897C59",
+          "#E48C64",
+          "#CCB4A4"
+        ],
+        "downloadedPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/eccc8bb969a801e9ee86db1e497c6845274adcf151ed80d7ef39d6f14e91f4d1.avif"
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/Tacoma_TAD_Logo_2492x1400_V1.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#A17D33",
+            "rgb": [
+              161,
+              125,
+              51
+            ],
+            "population": 289
+          },
+          "DarkVibrant": {
+            "hex": "#245461",
+            "rgb": [
+              36,
+              84,
+              97
+            ],
+            "population": 3
+          },
+          "LightVibrant": {
+            "hex": "#DFC89A",
+            "rgb": [
+              223,
+              201,
+              154
+            ],
+            "population": 0
+          },
+          "Muted": {
+            "hex": "#948A6F",
+            "rgb": [
+              148,
+              138,
+              111
+            ],
+            "population": 645
+          },
+          "DarkMuted": {
+            "hex": "#33586B",
+            "rgb": [
+              51,
+              88,
+              107
+            ],
+            "population": 1571
+          },
+          "LightMuted": {
+            "hex": "#C4BEB0",
+            "rgb": [
+              196,
+              190,
+              176
+            ],
+            "population": 709
+          }
+        },
+        "rankedHex": [
+          "#33586B",
+          "#C4BEB0",
+          "#948A6F",
+          "#A17D33",
+          "#245461",
+          "#DFC89A"
+        ],
+        "downloadedPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/8f0169de37f168e12eec9bd74899d97169559668e143e973046d6c6da08214d7.avif"
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/GR-HP-2_TGR-Logo.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#E7222A",
+            "rgb": [
+              231,
+              34,
+              42
+            ],
+            "population": 152
+          },
+          "DarkVibrant": {
+            "hex": "#04212E",
+            "rgb": [
+              4,
+              33,
+              46
+            ],
+            "population": 43
+          },
+          "LightVibrant": {
+            "hex": "#E65454",
+            "rgb": [
+              230,
+              84,
+              84
+            ],
+            "population": 3
+          },
+          "Muted": {
+            "hex": "#956677",
+            "rgb": [
+              149,
+              102,
+              119
+            ],
+            "population": 593
+          },
+          "DarkMuted": {
+            "hex": "#325466",
+            "rgb": [
+              50,
+              84,
+              102
+            ],
+            "population": 1313
+          },
+          "LightMuted": {
+            "hex": "#B09BA8",
+            "rgb": [
+              176,
+              155,
+              168
+            ],
+            "population": 1475
+          }
+        },
+        "rankedHex": [
+          "#B09BA8",
+          "#325466",
+          "#956677",
+          "#E7222A",
+          "#04212E",
+          "#E65454"
+        ],
+        "downloadedPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/e75ee38dc2f87dcf9a5592d5729b270f63eb0d072166eafbe16954a6eda252b2.avif"
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/SOTR_Desktop_2492x1400.png?fmt=jpeg&fit=crop&qlt=90&wid=1024": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#CA8431",
+            "rgb": [
+              202,
+              132,
+              49
+            ],
+            "population": 52
+          },
+          "DarkVibrant": {
+            "hex": "#807625",
+            "rgb": [
+              128,
+              118,
+              37
+            ],
+            "population": 112
+          },
+          "LightVibrant": {
+            "hex": "#CD575B",
+            "rgb": [
+              205,
+              87,
+              91
+            ],
+            "population": 10
+          },
+          "Muted": {
+            "hex": "#486C83",
+            "rgb": [
+              72,
+              108,
+              131
+            ],
+            "population": 1665
+          },
+          "DarkMuted": {
+            "hex": "#304656",
+            "rgb": [
+              48,
+              70,
+              86
+            ],
+            "population": 940
+          },
+          "LightMuted": {
+            "hex": "#BEB0AC",
+            "rgb": [
+              190,
+              176,
+              172
+            ],
+            "population": 1340
+          }
+        },
+        "rankedHex": [
+          "#486C83",
+          "#BEB0AC",
+          "#304656",
+          "#807625",
+          "#CA8431",
+          "#CD575B"
+        ],
+        "downloadedPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/98a96f198041b91a29403377c79460b2d27242ad8da2512cf3649fdd5e48cb27.avif"
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/corollacross/CRC_MY26_0008_V001.png?fmt=jpeg&fit=crop&qlt=90&wid=500": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#D43445",
+            "rgb": [
+              212,
+              52,
+              69
+            ],
+            "population": 137
+          },
+          "DarkVibrant": {
+            "hex": "#990D12",
+            "rgb": [
+              153,
+              13,
+              18
+            ],
+            "population": 318
+          },
+          "LightVibrant": {
+            "hex": "#EF95A7",
+            "rgb": [
+              239,
+              149,
+              167
+            ],
+            "population": 40
+          },
+          "Muted": {
+            "hex": "#A26273",
+            "rgb": [
+              162,
+              98,
+              115
+            ],
+            "population": 20
+          },
+          "DarkMuted": {
+            "hex": "#38464F",
+            "rgb": [
+              56,
+              70,
+              79
+            ],
+            "population": 344
+          },
+          "LightMuted": {
+            "hex": "#C6BFB7",
+            "rgb": [
+              198,
+              191,
+              183
+            ],
+            "population": 1034
+          }
+        },
+        "rankedHex": [
+          "#C6BFB7",
+          "#38464F",
+          "#990D12",
+          "#D43445",
+          "#EF95A7",
+          "#A26273"
+        ],
+        "downloadedPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/0a8ec703c7bbc7b5b280c056dec9d4edc0645cfe198c9f04aa40fc90dca9d940.avif"
+      },
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/rav4/RHV_MY26_0053_V001-desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=500": {
+        "swatches": {
+          "Vibrant": {
+            "hex": "#CB5A54",
+            "rgb": [
+              203,
+              90,
+              84
+            ],
+            "population": 8
+          },
+          "DarkVibrant": {
+            "hex": "#942D32",
+            "rgb": [
+              148,
+              45,
+              50
+            ],
+            "population": 6
+          },
+          "LightVibrant": {
+            "hex": "#F4E4CB",
+            "rgb": [
+              244,
+              228,
+              203
+            ],
+            "population": 739
+          },
+          "Muted": {
+            "hex": "#937260",
+            "rgb": [
+              147,
+              114,
+              96
+            ],
+            "population": 882
+          },
+          "DarkMuted": {
+            "hex": "#57443A",
+            "rgb": [
+              87,
+              68,
+              58
+            ],
+            "population": 314
+          },
+          "LightMuted": {
+            "hex": "#CEBBA5",
+            "rgb": [
+              206,
+              187,
+              165
+            ],
+            "population": 125
+          }
+        },
+        "rankedHex": [
+          "#937260",
+          "#F4E4CB",
+          "#57443A",
+          "#CEBBA5",
+          "#CB5A54",
+          "#942D32"
+        ],
+        "downloadedPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/91ced47267de9b9ae1b61b992f1632b73b5e3e7bec66654d1ed5f1f56665d8eb.avif"
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": [
+      "tcomSans, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "tcomMed, HelveticaNeueMedium, \"Helvetica Neue Medium\", Arial, sans-serif",
+      "tcomLight, HelvNeueLight, \"Helvetica Neue Light\", Arial, sans-serif",
+      "sans-serif"
+    ],
+    "fontSizesPx": [
+      10,
+      12,
+      12.0043,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48
+    ],
+    "fontWeights": [
+      400,
+      600,
+      700
+    ],
+    "lineHeightsPx": [
+      10,
+      12.0043,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      32,
+      40,
+      56
+    ]
+  },
+  "contrastChecks": [
+    {
+      "fg": "#000000",
+      "bg": "#FFFFFF",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#000000CC",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#000000",
+      "ratio": 21,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#F2F2F2",
+      "ratio": 18.75,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#E3DED9",
+      "ratio": 15.71,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#000000",
+      "bg": "#D8D8D8",
+      "ratio": 14.73,
+      "passesAA": true,
+      "passesAAA": true
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#FFFFFF",
+      "ratio": 5.66,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#F2F2F2",
+      "ratio": 5.05,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#FFFFFF",
+      "ratio": 4.92,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#000000CC",
+      "ratio": 4.62,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#000000",
+      "ratio": 4.62,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#FFFFFF",
+      "ratio": 4.54,
+      "passesAA": true,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#F2F2F2",
+      "ratio": 4.4,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#000000CC",
+      "ratio": 4.26,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#000000",
+      "ratio": 4.26,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#E3DED9",
+      "ratio": 4.23,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#F2F2F2",
+      "ratio": 4.05,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#D8D8D8",
+      "ratio": 3.97,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#000000CC",
+      "ratio": 3.7,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#CA1F00",
+      "bg": "#000000",
+      "ratio": 3.7,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#E3DED9",
+      "ratio": 3.68,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#E10A1D",
+      "bg": "#D8D8D8",
+      "ratio": 3.45,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#E3DED9",
+      "ratio": 3.39,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#767676",
+      "bg": "#D8D8D8",
+      "ratio": 3.18,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#D8D8D8",
+      "ratio": 1.42,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#E3DED9",
+      "ratio": 1.33,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#F2F2F2",
+      "ratio": 1.11,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#000000CC",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#000000",
+      "bg": "#000000",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    },
+    {
+      "fg": "#FFFFFF",
+      "bg": "#FFFFFF",
+      "ratio": 1,
+      "passesAA": false,
+      "passesAAA": false
+    }
+  ],
+  "assets": {
+    "screenshotPath": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/screenshot.png",
+    "outputDir": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714",
+    "images": [
+      "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "https://www.toyota.com/content/dam/toyota/sales-event/ONELINE_NoIcon_VIS_dse_logo_eng_horiz_2_line_single_color_white_RGB_2021_white_thin_3.svg?fmt=png-alpha",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/corollacross/CRC_MY26_0008_V001.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/rav4/RHV_MY26_0053_V001-desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+      "https://www.toyota.com/content/dam/toyota/homepage/fullbleed/horizontalbzlogo_beyond-zero.svg",
+      "https://www.toyota.com/",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2025/accessories_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/Tacoma_TAD_Logo_2492x1400_V1.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/TMM_FY26_0035_V001_Desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/GR-HP-2_TGR-Logo.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/SOTR_Desktop_2492x1400.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://www.toyota.com/content/dam/toyota/icons/privacyoptions.svg",
+      "https://www.toyota.com/content/dam/toyota/logos/VIS_toyota_logo_horiz_black_RGB_2023.svg",
+      "https://px.adentifi.com/Pixels?a_id=10437;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=9644630175541.191",
+      "https://px.adentifi.com/Pixels?a_id=10434;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=9086470798598.34",
+      "https://px.adentifi.com/Pixels?a_id=10444;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=8809148073082.365",
+      "https://px.adentifi.com/Pixels?a_id=10441;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=6104846696071.333",
+      "https://sp.analytics.yahoo.com/spp.pl?a=10000&.yp=10199127",
+      "https://bat.bing.com/action/0?ti=25056321&Ver=2&mid=ac442628-7261-490e-9ad6-8d4e0ea113c5&bo=1&sid=27f78450e60111f0b1cb413be82f0793&vid=27f79470e60111f0824c458a4bba18a7&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=New%20Cars,%20Trucks,%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&kw=toyota&p=https%3A%2F%2Fwww.toyota.com%2F&r=&lt=3836&evt=pageLoad&sv=2&cdb=AQIT&rn=71831",
+      "https://bat.bing.com/action/0?ti=4021778&Ver=2&mid=2b1f13e4-ae6b-4189-9533-b8b6153bd22e&bo=1&sid=27f78450e60111f0b1cb413be82f0793&vid=27f79470e60111f0824c458a4bba18a7&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=New%20Cars,%20Trucks,%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&kw=toyota&p=https%3A%2F%2Fwww.toyota.com%2F&r=&lt=3836&evt=pageLoad&sv=2&cdb=AQIT&rn=552584",
+      "https://bat.bing.com/action/0?ti=331001289&Ver=2&mid=383a740a-e4be-4edf-a343-6c8a22650b31&bo=1&sid=27f78450e60111f0b1cb413be82f0793&vid=27f79470e60111f0824c458a4bba18a7&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=New%20Cars,%20Trucks,%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&kw=toyota&p=https%3A%2F%2Fwww.toyota.com%2F&r=&lt=3836&evt=pageLoad&sv=2&cdb=AQIT&rn=350273",
+      "https://lciapi.ninthdecimal.com/v1/lci/imp/adv-inmarket/c-29780?typ=Multi&chn=inmarket&brand=conversion&ad=37750525-05cf-4290-9fee-bd3eac374cf9&xdv=1&ord=[INSERT_CACHEBUSTER_MACRO]",
+      "https://pixel.logtrackback.com/conversions?pixId=&t=&a=7163070&t=Y3o9MTc2NzE1NTMwOTQ2OCZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/conversions?pixId=&t=&a=3753092&t=Y3o9MTc2NzE1NTMwOTQ3MiZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/track?pixId=&t=&f=tos&d=7&t=Y3o9MTc2NzE1NTMwOTQ3NCZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/track?pixId=&t=&f=tos&d=508&t=Y3o9MTc2NzE1NTMwOTk3NSZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/track?pixId=&t=&f=tos&d=1010&t=Y3o9MTc2NzE1NTMxMDQ3NyZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://www.toyota.com/favicon.ico",
+      "https://www.toyota.com/icon.ico",
+      "https://www.toyota.com/icon.png"
+    ],
+    "brandImages": [
+      "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+      "https://www.toyota.com/content/dam/toyota/sales-event/ONELINE_NoIcon_VIS_dse_logo_eng_horiz_2_line_single_color_white_RGB_2021_white_thin_3.svg?fmt=png-alpha",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/corollacross/CRC_MY26_0008_V001.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/rav4/RHV_MY26_0053_V001-desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+      "https://www.toyota.com/content/dam/toyota/homepage/fullbleed/horizontalbzlogo_beyond-zero.svg",
+      "https://www.toyota.com/",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2025/accessories_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/Tacoma_TAD_Logo_2492x1400_V1.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/TMM_FY26_0035_V001_Desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/GR-HP-2_TGR-Logo.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/SOTR_Desktop_2492x1400.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+      "https://www.toyota.com/content/dam/toyota/icons/privacyoptions.svg",
+      "https://www.toyota.com/content/dam/toyota/logos/VIS_toyota_logo_horiz_black_RGB_2023.svg",
+      "https://sp.analytics.yahoo.com/spp.pl?a=10000&.yp=10199127",
+      "https://www.toyota.com/favicon.ico",
+      "https://www.toyota.com/icon.ico",
+      "https://www.toyota.com/icon.png"
+    ],
+    "trackingPixels": [
+      "https://px.adentifi.com/Pixels?a_id=10437;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=9644630175541.191",
+      "https://px.adentifi.com/Pixels?a_id=10434;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=9086470798598.34",
+      "https://px.adentifi.com/Pixels?a_id=10444;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=8809148073082.365",
+      "https://px.adentifi.com/Pixels?a_id=10441;p_url=https%3A%2F%2Fwww.toyota.com%2F;uq=6104846696071.333",
+      "https://bat.bing.com/action/0?ti=25056321&Ver=2&mid=ac442628-7261-490e-9ad6-8d4e0ea113c5&bo=1&sid=27f78450e60111f0b1cb413be82f0793&vid=27f79470e60111f0824c458a4bba18a7&vids=1&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=New%20Cars,%20Trucks,%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&kw=toyota&p=https%3A%2F%2Fwww.toyota.com%2F&r=&lt=3836&evt=pageLoad&sv=2&cdb=AQIT&rn=71831",
+      "https://bat.bing.com/action/0?ti=4021778&Ver=2&mid=2b1f13e4-ae6b-4189-9533-b8b6153bd22e&bo=1&sid=27f78450e60111f0b1cb413be82f0793&vid=27f79470e60111f0824c458a4bba18a7&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=New%20Cars,%20Trucks,%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&kw=toyota&p=https%3A%2F%2Fwww.toyota.com%2F&r=&lt=3836&evt=pageLoad&sv=2&cdb=AQIT&rn=552584",
+      "https://bat.bing.com/action/0?ti=331001289&Ver=2&mid=383a740a-e4be-4edf-a343-6c8a22650b31&bo=1&sid=27f78450e60111f0b1cb413be82f0793&vid=27f79470e60111f0824c458a4bba18a7&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=800&sh=600&sc=24&nwd=1&tl=New%20Cars,%20Trucks,%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&kw=toyota&p=https%3A%2F%2Fwww.toyota.com%2F&r=&lt=3836&evt=pageLoad&sv=2&cdb=AQIT&rn=350273",
+      "https://lciapi.ninthdecimal.com/v1/lci/imp/adv-inmarket/c-29780?typ=Multi&chn=inmarket&brand=conversion&ad=37750525-05cf-4290-9fee-bd3eac374cf9&xdv=1&ord=[INSERT_CACHEBUSTER_MACRO]",
+      "https://pixel.logtrackback.com/conversions?pixId=&t=&a=7163070&t=Y3o9MTc2NzE1NTMwOTQ2OCZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/conversions?pixId=&t=&a=3753092&t=Y3o9MTc2NzE1NTMwOTQ3MiZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/track?pixId=&t=&f=tos&d=7&t=Y3o9MTc2NzE1NTMwOTQ3NCZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/track?pixId=&t=&f=tos&d=508&t=Y3o9MTc2NzE1NTMwOTk3NSZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D",
+      "https://pixel.logtrackback.com/track?pixId=&t=&f=tos&d=1010&t=Y3o9MTc2NzE1NTMxMDQ3NyZ1YT1Nb3ppbGxhLzUuMCAoaVBob25lOyBDUFUgaVBob25lIE9TIDE4XzZfMiBsaWtlIE1hYyBPUyBYKSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTguNiBNb2JpbGUvMTVFMTQ4IFNhZmFyaS82MDQuMSZ1cmw9aHR0cHM6Ly93d3cudG95b3RhLmNvbS8mcmVmPSZjaWQ9Mzc3NTA1MjUtMDVjZi00MjkwLTlmZWUtYmQzZWFjMzc0Y2Y5Jg%3D%3D"
+    ],
+    "videos": [
+      "https://www.toyota.com/content/dam/toyota/homepage/marquee/sales-event/2025/camry/CAH_MY26_WelcomeMatHPMarqueeDesktop_1920x796_TCOM_NA-Per_NA-New_ENG_TDRHPMarqueeDeskTab1920x796fs5mb_TYCK3054000H.mp4?wid=1919",
+      "https://www.toyota.com/content/dam/toyota/homepage/marquee/sales-event/2025/grandhighlander/GHL_MY24_Gas_Snow_Homepage_Marquee_RF_08_TDR1920x796_5mb_TYTW2320000H.mp4?wid=1919"
+    ],
+    "stylesheets": [
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-grid.min.038ca416b87020656532b711d658250a.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-sitev2.min.daa05f9d95bf5cc701ab5a91ca0323a2.css",
+      "https://www.toyota.com/etc.clientlibs/maps/clientlibs/clientlib-globalhook.min.d41d8cd98f00b204e9800998ecf8427e.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/cloud/navigation/clientlib-globalheader.min.536af88b53d12bda5716234fd1e1044a.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/cloud/navigation/clientlib-globalfooter.min.e3855829fe9be17ed8fc23a11207726c.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-marqueev2.min.a7142dc1ff9d90223c98cff7d43a87a7.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-carouselcontainerv2.min.b7ae10a0d2ef5170168fb42a90767862.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-marqueeslidev2.min.4d81d00d85ce6e3e119f3e5332770c50.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-uatcontainer.min.cd4f0c9135184b381efe85470cc328a8.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-puwylobap.min.08ad3641e2a2e7b2a7b0c24e9a7db437.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-modal.min.4bf3f0668e951b2bd8eb0f39a56bfed0.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-tabbedcontainerv2.min.a51b94cc473f9580b3e9b8d8f37730c9.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-vehicleselector.min.ef39ec34ff81ce0a108f4b71e7b2dc02.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-vehicleselectorslide.min.28ea3b5ceaf61d4242cf0bfd17f93bde.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-titletextasset.min.7d69dd3d3968696d1286bc33628621ef.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-shoppingtools.min.31bed8486a3424898713b667448bb0c3.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-fullbleed.min.4bfb55461750808b91bae5a83ac47ed0.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-customcode.min.428327da0b237deafe501370e12ae36c.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-smallimagefeature.min.ff1218d94edeb85e6c9cb438c79d270f.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-smallimagefeatureslide.min.56609421051067cd77eb75bd0f8cb098.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-meganews.min.4d345e5c59b2817993af458a37178dc7.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-meganewscard.min.c1249f44322d8f945401de0336e4bf30.css",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/css/7658.a7bf09990b9ba2d7e0d9.css",
+      "https://cdn.dg.toyota.com/deploy/dg-ui/latest/toyota/assets/dg-modals-BBNqkSeS.css",
+      "https://cdn.dg.toyota.com/deploy/dg-ui/latest/toyota/assets/dg-styles-u6Flx7-T.css",
+      "https://cdn.dg.toyota.com/deploy/dg-ui/latest/toyota/assets/common-DL9YfFN9.css"
+    ],
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=DC-663059",
+      "https://www.googletagmanager.com/gtag/js?id=DC-621119",
+      "https://sd.iperceptions.com/ius-552c4685f10c444b12afbe0e3c7dc445/30434_639016030890846659",
+      "https://universal.iperceptions.com/core/IpEngine_v79.0.js",
+      "https://ct.pinterest.com/static/ct/token_create.js",
+      "https://gst.pulse.buyatoyota.com/pc/gst/content?format=jsonp&output=cookies&callback=window.Bootstrapper.syncData.handlePulseResponse&cb=276130501.57421714",
+      "https://tagging.shiftdigitalapps.io/scripts/sdanalytics/sda.js?clientId=TOYOTA&instanceName=sda&scenario=T1",
+      "https://s.pinimg.com/ct/lib/main.817db39b.js",
+      "https://bat.bing.com/p/conversions/s/0.8.45",
+      "https://bat.bing.com/p/conversions/t/25056321",
+      "https://www.googletagmanager.com/gtag/js?id=DC-8197272&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=AW-1062214132&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=AW-788734164&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=AW-795954380&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=AW-925806621&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=DC-663059&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=DC-9675774&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=G-3ELKE3T38N&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=G-KL97L10W3W&cx=c&gtm=4e5ca1",
+      "https://www.googletagmanager.com/gtag/js?id=G-EP43E5EFVZ&cx=c&gtm=4e5ca1",
+      "https://scripts.inmarkethub.com/conversion-tracking/v1.js",
+      "https://s.pinimg.com/ct/core.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-954162238",
+      "https://sc-static.net/scevent.min.js",
+      "https://t.contentsquare.net/uxa/4f158e824c11b.js",
+      "https://connect.facebook.net/signals/config/457434558590118?v=2.9.248&r=stable&domain=www.toyota.com&hme=17590b9a2e1b26755cdc9ecb401f9f46bca979d3ccce95d786db0936167af731&ex_m=94%2C156%2C134%2C20%2C67%2C68%2C127%2C63%2C43%2C128%2C72%2C62%2C10%2C141%2C80%2C15%2C93%2C28%2C122%2C115%2C70%2C73%2C121%2C138%2C102%2C143%2C7%2C3%2C4%2C6%2C5%2C2%2C81%2C91%2C144%2C224%2C167%2C57%2C226%2C227%2C50%2C183%2C27%2C69%2C232%2C231%2C170%2C30%2C56%2C9%2C59%2C87%2C88%2C89%2C95%2C118%2C29%2C26%2C120%2C117%2C116%2C135%2C71%2C137%2C136%2C45%2C55%2C111%2C14%2C140%2C40%2C213%2C215%2C177%2C23%2C24%2C25%2C17%2C18%2C39%2C35%2C37%2C36%2C76%2C82%2C86%2C100%2C126%2C129%2C41%2C101%2C21%2C19%2C107%2C64%2C33%2C131%2C130%2C132%2C123%2C22%2C32%2C54%2C99%2C139%2C65%2C16%2C133%2C104%2C31%2C193%2C163%2C284%2C211%2C154%2C196%2C189%2C164%2C97%2C119%2C75%2C109%2C49%2C44%2C103%2C42%2C108%2C114%2C53%2C60%2C113%2C48%2C51%2C47%2C90%2C142%2C0%2C112%2C13%2C110%2C11%2C1%2C52%2C83%2C58%2C61%2C106%2C79%2C78%2C145%2C146%2C84%2C85%2C8%2C92%2C46%2C124%2C77%2C74%2C66%2C105%2C96%2C38%2C125%2C34%2C98%2C12%2C147",
+      "https://connect.facebook.net/en_US/fbevents.js",
+      "https://p.pulse.toyota.com/pc/toyota/content?format=jsonp&output=cookies&callback=window.Bootstrapper.syncData.handlePulseResponse&cb=428708079.9098515",
+      "https://sdtagging.azureedge.net/scripts/sdt1.js?containerId=TOYOTA&dl=sd",
+      "https://www.googletagmanager.com/gtag/js?id=G-EP43E5EFVZ",
+      "https://bat.bing.com/bat.js",
+      "https://www.googletagmanager.com/gtag/js?id=AW-16467698940",
+      "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "https://www.redditstatic.com/ads/pixel.js",
+      "https://pixel.byspotify.com/ping.min.js",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/cf800f81b6f0f40f2efaa305dd991151.js?conditionId0=381884",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/abb7ab3fbf397e9f1afd195b9698a743.js?conditionId0=370474",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/d49f3b999d6f69031626f0fc133ea7ca.js?conditionId0=423182",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/751156337343d9e1a07b738e8119ab9b.js?conditionId0=4839311",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/9cdc5f4eac777bb6a420c78972e98832.js",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/82804c1fb2f9790383e8ad4213478bfa.js?conditionId0=423182",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/fc0a124af6466975ce4cadb49122d92e.js?conditionId0=367818",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/779e8cf857133805497ba5e3b316b124.js?conditionId0=423182",
+      "https://nexus.toyota.com/toyotanational/t-com-p/code/e1ecb3cafc0532605ef7fd86a573227f.js?conditionId0=455930",
+      "https://cdn.appdynamics.com/adrum-ext.e0f1f4dad911a84d8042f3b4469843fa.js",
+      "https://nexus.toyota.com/toyotanational/t-com-p/Bootstrap.js",
+      "https://www.gstatic.com/recaptcha/releases/7gg7H51Q-naNfhmCP3_R47ho/recaptcha__en.js",
+      "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js",
+      "https://www.toyota.com/etc.clientlibs/tmna-commons/clientlibs/clientlib-pkcelib.min.f95789fe4ba1772b8974a6838329f094.js",
+      "https://cdn.dg.toyota.com/deploy/dg-ui/latest/dg-auth.min.js",
+      "https://www.google.com/recaptcha/enterprise.js?render=6LdgInQiAAAAABpKJwK1emnxClOc_Zrv0pxGjvIP",
+      "https://www.toyota.com/analytics/config/tcom.js",
+      "https://www.toyota.com/content/dam/global_files/scripts/adobe_visitorid/version-5-5-0/visitorapi.min.js",
+      "https://www.toyota.com/content/dam/global_files/scripts/adobe_visitorid/config/visitorapi_tmna.js",
+      "https://www.toyota.com/content/dam/global_files/scripts/adobe_target/config/targetConfig_tcom.js",
+      "https://www.toyota.com/content/dam/global_files/scripts/adobe_target/version-2-11-4/at.js",
+      "https://www.toyota.com/content/test/adrum-config.js",
+      "https://cdn.dg.toyota.com/deploy/dg-loader/latest/dg-loader-app.min.js",
+      "https://f98792672267.edge.sdk.awswaf.com/f98792672267/c394e383e870/challenge.js",
+      "https://bat.bing.com/p/action/331001289.js",
+      "https://bat.bing.com/p/action/4021778.js",
+      "https://bat.bing.com/p/action/25056321.js",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16467698940/?random=1767155308792&cv=11&fst=1767155308792&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v9180902790za200zd9180902790xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115583767~115616985~115938465~115938468~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.toyota.com%2F&frm=0&tiba=New%20Cars%2C%20Trucks%2C%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&did=dNjQwYj&gdid=dNjQwYj&hn=www.googleadservices.com&npa=0&auid=705898317.1767155309&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/954162238/?random=1767155308850&cv=11&fst=1767155308850&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1za200xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115583767~115938465~115938468~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.toyota.com%2F&frm=0&tiba=New%20Cars%2C%20Trucks%2C%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&did=dNjQwYj&gdid=dNjQwYj&hn=www.googleadservices.com&npa=0&auid=705898317.1767155309&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=IA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/788734164/?random=1767155309023&cv=11&fst=1767155309023&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v9181644974za200zb9180902790zd9180902790xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391253~115495939~115583767~115616986~115938465~115938468~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.toyota.com%2F&frm=0&tiba=New%20Cars%2C%20Trucks%2C%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&did=dNjQwYj&gdid=dNjQwYj&hn=www.googleadservices.com&npa=0&auid=705898317.1767155309&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=IA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/925806621/?random=1767155309055&cv=11&fst=1767155309055&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v9102656617za200zb9180902790zd9180902790xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115583767~115938465~115938468~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.toyota.com%2F&frm=0&tiba=New%20Cars%2C%20Trucks%2C%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&did=dNjQwYj&gdid=dNjQwYj&hn=www.googleadservices.com&npa=0&auid=705898317.1767155309&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=IA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/795954380/?random=1767155309075&cv=11&fst=1767155309075&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v9146660273za200zb9180902790zd9180902790xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115583767~115616986~115938465~115938468~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.toyota.com%2F&frm=0&tiba=New%20Cars%2C%20Trucks%2C%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&did=dNjQwYj&gdid=dNjQwYj&hn=www.googleadservices.com&npa=0&auid=705898317.1767155309&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=IA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1062214132/?random=1767155309099&cv=11&fst=1767155309099&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v9183472452za200zb9180902790zd9180902790xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391252~115583767~115938465~115938468~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.toyota.com%2F&frm=0&tiba=New%20Cars%2C%20Trucks%2C%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&did=dNjQwYj&gdid=dNjQwYj&hn=www.googleadservices.com&npa=0&auid=705898317.1767155309&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_tu=IA&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066750050/?random=1767155309112&cv=11&fst=1767155309112&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be5ca1v9183472452za200zb9180902790zd9180902790xec&gcd=13t3t3t3t5l1&dma=0&tag_exp=102015666~103116026~103200004~104527906~104528500~104684208~104684211~105391252~115583767~115938465~115938468~116184927~116184929~116251938~116251940&u_w=800&u_h=600&url=https%3A%2F%2Fwww.toyota.com%2F&frm=0&tiba=New%20Cars%2C%20Trucks%2C%20SUVs%20%26%20Hybrids%20%7C%20Toyota%20Official%20Site&did=dNjQwYj&gdid=dNjQwYj&hn=www.googleadservices.com&npa=0&auid=705898317.1767155309&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+      "https://static.hj.contentsquare.net/c/hotjar-6574220.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-sitev2.min.88960cdb5f92e62fb0e688d6fd263b91.js",
+      "https://www.toyota.com/etc.clientlibs/maps/clientlibs/clientlib-globalhook.min.66fd34eae609ff97aedcd3605cc4802a.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/cloud/navigation/clientlib-globalheader.min.688bfb60c5a252fd367c32ea61fa3952.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/cloud/navigation/clientlib-globalfooter.min.0632c779fd8816c5fcbbd1d69df91f4f.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-marqueev2.min.acfbba58460c3a891d5df0b2aa8229cb.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-carouselcontainerv2.min.9c8064712593ce09ca64e5b5db0a4514.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-marqueeslidev2.min.dd25bf985be2832272175b9811349129.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-uatcontainer.min.a4339f022e2a7120056a764264afa619.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-puwylobap.min.8cd676465a82938732db5b9cd2a453bc.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-modal.min.cd6442b9709ddf0c3d0b5104986f77f1.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-tabbedcontainerv2.min.3f33a5461d279ab113e1924084b9ea4c.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-vehicleselector.min.61c5be1bc2453a7ac9d9a5c3a426a838.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-vehicleselectorslide.min.daea1d7c5744249089a07cf907ca829c.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-titletextasset.min.0cd1295b7047162b0fd189c498d7b8d6.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-shoppingtools.min.c0f0d4c074c9320491e4b72953e393b8.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-fullbleed.min.945a962ed5009dad4213f684fc581bf3.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-smallimagefeature.min.e3c367411e9d66973d86ac25b94c04a2.js",
+      "https://cdn.dg.toyota.com/deploy/dg-ui/latest/toyota/dg-ui-entry.CW0fxZ-c.min.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-smallimagefeatureslide.min.684a17affa769843adc2afad317770f6.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-meganews.min.24327855f086c3e09a3f4a6c433556b3.js",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-meganewscard.min.0bca51e1f51fa35d68fb12bf0a3f73b0.js",
+      "https://universal.iperceptions.com/wrapper.js",
+      "https://tagging.shiftdigitalapps.io/scripts/sdanalytics/sda_fp.js?clientId=toyota&instanceName=sda",
+      "https://tagging.shiftdigitalapps.io/id/3pc?cb=window[%27_SDA%27][%27_cbyphdpg%27]"
+    ],
+    "fonts": [
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Light/ToyotaType-Light.woff2",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Light/ToyotaType-Light.woff",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Book/ToyotaType-Book.woff2",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Book/ToyotaType-Book.woff",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Regular/ToyotaType-Regular.woff2",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Regular/ToyotaType-Regular.woff",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff2",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Bold/ToyotaType-Bold.woff2",
+      "https://www.toyota.com/tcom/fonts/ToyotaType-Bold/ToyotaType-Bold.woff",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Light/ToyotaType-Light.woff2",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Light/ToyotaType-Light.woff",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Book/ToyotaType-Book.woff2",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Book/ToyotaType-Book.woff",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Regular/ToyotaType-Regular.woff2",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Regular/ToyotaType-Regular.woff",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff2",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Bold/ToyotaType-Bold.woff2",
+      "https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Bold/ToyotaType-Bold.woff",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Regular.otf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Regular.ttf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Regular.woff",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Regular.woff2",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Bold.otf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Bold.ttf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Bold.woff",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Bold.woff2",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-BoldIt.ttf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-BoldIt.woff",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-BoldIt.woff2",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Book.otf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Book.ttf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Book.woff",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Book.woff2",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Light.ttf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Light.woff",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Light.woff2",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Semibold.otf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Semibold.ttf",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Semibold.woff",
+      "https://cdn.dg.toyota.com/static/dg-fonts/ToyotaType-Semibold.woff2"
+    ],
+    "downloadedImagePaths": [
+      {
+        "url": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/TMM_FY26_0035_V001_Desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "path": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/665f6f3198708f7a93de2c2a15e41c27a953980ca9d2dc1b80d8ae7b72f7d2da.avif",
+        "ok": true,
+        "contentType": "image/avif"
+      },
+      {
+        "url": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2025/accessories_desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "path": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/eccc8bb969a801e9ee86db1e497c6845274adcf151ed80d7ef39d6f14e91f4d1.avif",
+        "ok": true,
+        "contentType": "image/avif"
+      },
+      {
+        "url": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/Tacoma_TAD_Logo_2492x1400_V1.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "path": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/8f0169de37f168e12eec9bd74899d97169559668e143e973046d6c6da08214d7.avif",
+        "ok": true,
+        "contentType": "image/avif"
+      },
+      {
+        "url": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/GR-HP-2_TGR-Logo.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "path": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/e75ee38dc2f87dcf9a5592d5729b270f63eb0d072166eafbe16954a6eda252b2.avif",
+        "ok": true,
+        "contentType": "image/avif"
+      },
+      {
+        "url": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/small-image/2026/SOTR_Desktop_2492x1400.png?fmt=jpeg&fit=crop&qlt=90&wid=1024",
+        "path": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/98a96f198041b91a29403377c79460b2d27242ad8da2512cf3649fdd5e48cb27.avif",
+        "ok": true,
+        "contentType": "image/avif"
+      },
+      {
+        "url": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/corollacross/CRC_MY26_0008_V001.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "path": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/0a8ec703c7bbc7b5b280c056dec9d4edc0645cfe198c9f04aa40fc90dca9d940.avif",
+        "ok": true,
+        "contentType": "image/avif"
+      },
+      {
+        "url": "https://tmna.aemassets.toyota.com/is/image/toyota/toyota/homepage/vehicleselector/2026/rav4/RHV_MY26_0053_V001-desktop.png?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "path": "/Users/sinaasheghalishahi/Documents/Bixy_Files/web-asset-extractor-dev/brand-scraper/out/1767155302714/images/91ced47267de9b9ae1b61b992f1632b73b5e3e7bec66654d1ed5f1f56665d8eb.avif",
+        "ok": true,
+        "contentType": "image/avif"
+      }
+    ]
+  }
+}
