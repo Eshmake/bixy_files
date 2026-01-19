@@ -1,45 +1,388 @@
 # run_brand_scrape.py
+# ZenRows parity report builder (replacement for Puppeteer pipeline)
+#
+# Produces:
+#   out/<host>/<timestamp>/report.json
+#   out/<host>/<timestamp>/assets/*
+#
+# Requirements:
+#   pip install requests beautifulsoup4 python-dotenv
+#   npm i node-vibrant colord
+#
+# Also requires palette.js in this same folder.
+
+from __future__ import annotations
+
 import os
+import re
+import json
+import math
+import hashlib
+import subprocess
+from datetime import datetime
+from pathlib import Path
+from urllib.parse import urlparse
+from typing import Dict, List, Optional, Tuple
+
 import requests
-from zenrows_fetch import fetch_rendered_html
+
+from zenrows_fetch import fetch_rendered_html, fetch_screenshot_png, fetch_json_response
 from extract_dom import extract_dom
 
-import json
-from urllib.parse import urlparse
-from pathlib import Path
+SUPPORTED_CT = {
+    "image/png": "png",
+    "image/jpeg": "jpg",
+    "image/jpg": "jpg",
+    "image/gif": "gif",
+    "image/bmp": "bmp",
+}
 
-def save_json(data: dict, url: str, out_dir: str = "out"):
-    Path(out_dir).mkdir(parents=True, exist_ok=True)
 
-    host = urlparse(url).netloc.replace("www.", "")
-    out_path = Path(out_dir) / f"{host}.json"
+def host_slug(url: str) -> str:
+    return urlparse(url).netloc.replace("www.", "")
 
-    with open(out_path, "w", encoding="utf-8") as f:
+
+def now_stamp() -> str:
+    # local timestamp for folder naming
+    return datetime.now().strftime("%Y%m%d_%H%M%S")
+
+
+def sha256_file(path: str) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def save_json(data: dict, path: str) -> str:
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+    return path
 
-    return str(out_path)
 
-def download(url: str, out_path: str):
-    r = requests.get(url, timeout=30)
+def download(url: str, out_path: str) -> Dict:
+    r = requests.get(
+        url,
+        timeout=30,
+        allow_redirects=True,
+        headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "image/*,*/*;q=0.8",
+        },
+    )
     r.raise_for_status()
+
+    Path(out_path).parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "wb") as f:
         f.write(r.content)
 
-def scrape_brand(url: str) -> dict:
+    content_type = (r.headers.get("Content-Type") or "").split(";")[0].strip().lower()
+    return {
+        "requested_url": url,
+        "final_url": r.url,
+        "content_type": content_type,
+        "bytes": len(r.content),
+        "path": out_path,
+        "status": r.status_code,
+    }
+
+
+def node_palette(image_path: str) -> dict:
+    p = subprocess.run(
+        ["node", "palette.js", image_path],
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if p.returncode != 0:
+        raise RuntimeError(f"palette.js failed:\nSTDOUT:\n{p.stdout}\nSTDERR:\n{p.stderr}")
+    return json.loads(p.stdout)
+
+
+def _parse_css_tokens(css_text: str) -> Dict:
+    vars_found = dict(re.findall(r"(--[\w-]+)\s*:\s*([^;}{]+)\s*;", css_text))
+    font_families = re.findall(r"font-family\s*:\s*([^;}{]+)\s*;", css_text, flags=re.I)
+    font_sizes = re.findall(r"font-size\s*:\s*([^;}{]+)\s*;", css_text, flags=re.I)
+    font_weights = re.findall(r"font-weight\s*:\s*([^;}{]+)\s*;", css_text, flags=re.I)
+    line_heights = re.findall(r"line-height\s*:\s*([^;}{]+)\s*;", css_text, flags=re.I)
+    hex_colors = re.findall(r"#[0-9a-fA-F]{3,8}\b", css_text)
+    rgb_colors = re.findall(r"rgba?\([^)]+\)", css_text, flags=re.I)
+
+    def uniq(seq: List[str]) -> List[str]:
+        seen = set()
+        out = []
+        for x in seq:
+            x = x.strip()
+            if not x or x in seen:
+                continue
+            seen.add(x)
+            out.append(x)
+        return out
+
+    return {
+        "css_vars": dict(list(vars_found.items())[:500]),
+        "fontFamilies": uniq(font_families)[:200],
+        "fontSizes": uniq(font_sizes)[:200],
+        "fontWeights": uniq(font_weights)[:200],
+        "lineHeights": uniq(line_heights)[:200],
+        "colorLiterals": uniq(hex_colors + rgb_colors)[:500],
+    }
+
+
+def _srgb_to_linear(c: float) -> float:
+    c = c / 255.0
+    return c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4
+
+
+def relative_luminance(rgb: Tuple[int, int, int]) -> float:
+    r, g, b = rgb
+    R = _srgb_to_linear(r)
+    G = _srgb_to_linear(g)
+    B = _srgb_to_linear(b)
+    return 0.2126 * R + 0.7152 * G + 0.0722 * B
+
+
+def contrast_ratio(rgb1: Tuple[int, int, int], rgb2: Tuple[int, int, int]) -> float:
+    L1 = relative_luminance(rgb1)
+    L2 = relative_luminance(rgb2)
+    lighter = max(L1, L2)
+    darker = min(L1, L2)
+    return (lighter + 0.05) / (darker + 0.05)
+
+
+def hex_to_rgb(hex_color: str) -> Optional[Tuple[int, int, int]]:
+    if not hex_color:
+        return None
+    h = hex_color.strip().lstrip("#")
+    if len(h) == 3:
+        h = "".join([c * 2 for c in h])
+    if len(h) != 6:
+        return None
+    try:
+        return (int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16))
+    except Exception:
+        return None
+
+
+def build_contrast_checks(palette_hex: List[str]) -> List[Dict]:
+    # Approximation: test black/white on candidate background colors.
+    checks = []
+    fg_candidates = ["#000000", "#FFFFFF"]
+    for bg in palette_hex[:8]:
+        bg_rgb = hex_to_rgb(bg)
+        if not bg_rgb:
+            continue
+        for fg in fg_candidates:
+            fg_rgb = hex_to_rgb(fg)
+            if not fg_rgb:
+                continue
+            ratio = contrast_ratio(fg_rgb, bg_rgb)
+            checks.append({
+                "fg": fg,
+                "bg": bg,
+                "ratio": round(ratio, 2),
+                "passesAA": ratio >= 4.5,
+                "passesAAA": ratio >= 7.0,
+            })
+    return checks
+
+
+def choose_top_images(image_urls: List[str], limit: int = 10) -> List[str]:
+    # Heuristic: prefer likely hero/banner images first.
+    def score(u: str) -> int:
+        ul = u.lower()
+        s = 0
+        for k in ["hero", "banner", "masthead", "header", "main", "home", "slide"]:
+            if k in ul:
+                s += 20
+        for k in ["logo", "icon", "sprite", "badge", "award", "tracking", "pixel"]:
+            if k in ul:
+                s -= 20
+        # prefer common photo formats
+        if any(ul.endswith(ext) for ext in [".jpg", ".jpeg", ".png", ".webp"]):
+            s += 5
+        return s
+
+    ranked = sorted(image_urls, key=score, reverse=True)
+    # de-dupe while preserving order
+    seen = set()
+    out = []
+    for u in ranked:
+        if u in seen:
+            continue
+        seen.add(u)
+        out.append(u)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def scrape_brand_report(url: str) -> Dict:
+    host = host_slug(url)
+    stamp = now_stamp()
+    out_dir = Path("out") / host / stamp
+    assets_dir = out_dir / "assets"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+
+    # 1) Rendered HTML
     html = fetch_rendered_html(url, wait_for="body")
-    data = extract_dom(html, base_url=url)
+    (out_dir / "page.html").write_text(html, encoding="utf-8")
 
-    if data.get("logo_url"):
-        os.makedirs("out/assets", exist_ok=True)
-        print("Downloading logo_url:", data["logo_url"])
-        download(data["logo_url"], "out/assets/logo.png")
-        print("Saved logo.png bytes:", os.path.getsize("out/assets/logo.png"))
+    # 2) DOM + asset URLs
+    dom = extract_dom(html, base_url=url)
 
-    save_path = save_json(data, url)
-    print("Saved JSON to:", save_path)
+    # 3) Screenshot
+    screenshot_path = str(assets_dir / f"{host}_page.png")
+    fetch_screenshot_png(url, out_path=screenshot_path, full_page=True)
 
-    return data
+    # 4) ZenRows JSON response (network insights)
+    jr = fetch_json_response(url, wait_for="body")
+
+    # 5) Download logo if raster (or store inline svg)
+    logo_path = None
+    logo_meta = None
+    if dom.get("logo_url"):
+        tmp = str(assets_dir / f"{host}_logo.bin")
+        try:
+            meta = download(dom["logo_url"], tmp)
+            logo_meta = meta
+            ext = SUPPORTED_CT.get(meta["content_type"])
+            if ext and meta["bytes"] > 0:
+                final = str(assets_dir / f"{host}_logo.{ext}")
+                os.replace(tmp, final)
+                logo_path = final
+            else:
+                # keep .bin for debugging, but don't palette it
+                logo_path = None
+        except Exception as e:
+            logo_meta = {"error": str(e), "requested_url": dom.get("logo_url")}
+
+    logo_svg_path = None
+    if dom.get("logo_inline_svg"):
+        logo_svg_path = str(assets_dir / f"{host}_logo.svg")
+        Path(logo_svg_path).write_text(dom["logo_inline_svg"], encoding="utf-8")
+
+    # 6) Download top images and compute palettes
+    top_images = choose_top_images(dom.get("image_urls") or [], limit=10)
+    downloaded_images = []
+    palettes_by_image_url = {}
+
+    for idx, img_url in enumerate(top_images):
+        try:
+            tmp = str(assets_dir / f"img_{idx}.bin")
+            meta = download(img_url, tmp)
+            ext = SUPPORTED_CT.get(meta["content_type"])
+            if not ext or meta["bytes"] == 0:
+                downloaded_images.append({**meta, "ok": False, "reason": "unsupported_content_type"})
+                continue
+            final = str(assets_dir / f"img_{idx}.{ext}")
+            os.replace(tmp, final)
+            meta["path"] = final
+            downloaded_images.append({**meta, "ok": True})
+
+            # palette per image
+            pal = node_palette(final)
+            palettes_by_image_url[img_url] = {
+                "downloadedPath": final,
+                "vibrant": pal.get("vibrant"),
+            }
+        except Exception as e:
+            downloaded_images.append({"requested_url": img_url, "ok": False, "error": str(e)})
+
+    # 7) Palettes for screenshot + logo (if supported)
+    palette_from_screenshot = node_palette(screenshot_path)
+    palette_from_logo = node_palette(logo_path) if logo_path else None
+
+    # 8) CSS harvesting
+    css_tokens = []
+    stylesheet_urls = dom.get("stylesheet_urls") or []
+    for css_url in stylesheet_urls[:10]:
+        try:
+            css_text = fetch_rendered_html(css_url, wait_for=None, block_resources=None)
+            css_tokens.append({"css_url": css_url, **_parse_css_tokens(css_text)})
+        except Exception as e:
+            css_tokens.append({"css_url": css_url, "error": str(e)})
+
+    # 9) Typography summary (approx)
+    all_families = []
+    all_sizes = []
+    all_weights = []
+    all_lines = []
+    for t in css_tokens:
+        if "error" in t:
+            continue
+        all_families += t.get("fontFamilies", [])
+        all_sizes += t.get("fontSizes", [])
+        all_weights += t.get("fontWeights", [])
+        all_lines += t.get("lineHeights", [])
+
+    def uniq(seq: List[str]) -> List[str]:
+        seen = set()
+        out = []
+        for x in seq:
+            x = x.strip()
+            if not x or x in seen:
+                continue
+            seen.add(x)
+            out.append(x)
+        return out
+
+    typography = {
+        "fontFamilies": uniq(all_families)[:200],
+        "fontSizes": uniq(all_sizes)[:200],
+        "fontWeights": uniq(all_weights)[:200],
+        "lineHeights": uniq(all_lines)[:200],
+    }
+
+    # 10) Contrast checks (approx from screenshot palette)
+    palette_hex = (palette_from_screenshot.get("vibrant", {}) or {}).get("rankedHex", [])
+    contrast_checks = build_contrast_checks(palette_hex)
+
+    report = {
+        "meta": {
+            "engine": "zenrows",
+            "scrapedAt": stamp,
+            "url": url,
+            "host": host,
+        },
+        "page": {
+            "title": dom.get("title"),
+            "h1": dom.get("h1"),
+        },
+        "assets": {
+            "screenshotPath": screenshot_path,
+            "screenshotSha256": sha256_file(screenshot_path),
+            "logoPath": logo_path,
+            "logoMeta": logo_meta,
+            "logoInlineSvgPath": logo_svg_path,
+            "images": downloaded_images,
+            "videos": dom.get("video_urls") or [],
+            "iframes": dom.get("iframe_urls") or [],
+            "stylesheets": stylesheet_urls,
+            "scripts": dom.get("script_urls") or [],
+        },
+        "palette": {
+            "fromScreenshot": palette_from_screenshot,
+            "fromLogo": palette_from_logo,
+        },
+        "palettesByImageUrl": palettes_by_image_url,
+        "css": {
+            "tokens": css_tokens,
+        },
+        "typography": typography,
+        "contrastChecks": contrast_checks,
+        "zenrows": {
+            "raw_json_response": jr,
+        },
+    }
+
+    save_json(report, str(out_dir / "report.json"))
+    return report
+
 
 if __name__ == "__main__":
-    print(scrape_brand("https://toyota.com/"))
-
+    # Change URL here to test
+    r = scrape_brand_report("https://vivint.com/")
+    print("Saved report to:", Path("out") / host_slug("https://vivint.com/") )

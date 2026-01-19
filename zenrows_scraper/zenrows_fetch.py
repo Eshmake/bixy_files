@@ -1,4 +1,5 @@
-#zenrows_fetch.py
+# zenrows_fetch.py
+# ZenRows fetch layer: rendered HTML, screenshots, and JSON response.
 
 import os
 import time
@@ -17,9 +18,7 @@ load_dotenv()
 
 ZENROWS_API_KEY = os.environ.get("ZENROWS_API_KEY")
 if not ZENROWS_API_KEY:
-    raise RuntimeError(
-        "ZENROWS_API_KEY not found. Set it in your environment or in a .env file."
-    )
+    raise RuntimeError("ZENROWS_API_KEY not found. Set it in your environment or in a .env file.")
 
 ZENROWS_ENDPOINT = "https://api.zenrows.com/v1/"
 RETRY_STATUSES = {429, 500, 502, 503, 504}
@@ -36,19 +35,13 @@ def zenrows_get(
     js_instructions: Optional[str] = None,
     css_extractor: Optional[Dict[str, Any]] = None,
     response_type: Optional[str] = None,
-    # Screenshot / JSON response options
     json_response: bool = False,
     screenshot: bool = False,
     screenshot_fullpage: bool = True,
     screenshot_format: str = "png",
-    # Network / retry options
     timeout_s: int = 45,
     max_retries: int = 5,
 ) -> requests.Response:
-    """
-    Low-level ZenRows request wrapper with retries.
-    Returns the raw requests.Response.
-    """
     params: Dict[str, str] = {
         "url": url,
         "apikey": ZENROWS_API_KEY,
@@ -69,7 +62,6 @@ def zenrows_get(
     if response_type:
         params["response_type"] = response_type
 
-    # JSON response + screenshot flags
     if json_response:
         params["json_response"] = "true"
     if screenshot:
@@ -81,39 +73,43 @@ def zenrows_get(
     for attempt in range(max_retries):
         try:
             r = requests.get(ZENROWS_ENDPOINT, params=params, timeout=timeout_s)
-
             if r.status_code in RETRY_STATUSES:
-                # exponential backoff + jitter
-                sleep_s = min(20, (2 ** attempt)) + random.uniform(0, 0.5)
-                time.sleep(sleep_s)
+                time.sleep(min(20, (2 ** attempt)) + random.uniform(0, 0.5))
                 continue
-
             r.raise_for_status()
             return r
-
         except Exception as e:
             last_err = e
-            sleep_s = min(20, (2 ** attempt)) + random.uniform(0, 0.5)
-            time.sleep(sleep_s)
+            time.sleep(min(20, (2 ** attempt)) + random.uniform(0, 0.5))
 
     raise RuntimeError(f"ZenRows failed for {url}") from last_err
 
 
-def fetch_rendered_html(url: str, *, wait_for: Optional[str] = None) -> str:
-    """
-    Fetch fully rendered HTML for a page (good Puppeteer replacement for page.content()).
-    """
+def fetch_rendered_html(url: str, *, wait_for: Optional[str] = None, block_resources: Optional[str] = "image,media,font") -> str:
     r = zenrows_get(
         url,
         js_render=True,
         premium_proxy=True,
         wait_for=wait_for or "body",
-        # Speed/cost optimization for HTML-only scraping:
-        block_resources="image,media,font",
-        timeout_s=45,
+        block_resources=block_resources,
+        timeout_s=60,
         max_retries=5,
     )
     return r.text
+
+
+def fetch_json_response(url: str, *, wait_for: Optional[str] = None, block_resources: Optional[str] = "image,media,font") -> dict:
+    r = zenrows_get(
+        url,
+        js_render=True,
+        premium_proxy=True,
+        wait_for=wait_for or "body",
+        block_resources=block_resources,
+        json_response=True,
+        timeout_s=60,
+        max_retries=5,
+    )
+    return r.json()
 
 
 def fetch_screenshot_png(
@@ -123,11 +119,6 @@ def fetch_screenshot_png(
     wait_for: str = "body",
     full_page: bool = True,
 ) -> str:
-    """
-    Fetch a rendered screenshot (PNG) via ZenRows and save it to disk.
-    Returns the output path.
-    """
-    # For screenshots, don't block images; you want the page to actually render.
     r = zenrows_get(
         url,
         js_render=True,
@@ -138,25 +129,18 @@ def fetch_screenshot_png(
         screenshot=True,
         screenshot_fullpage=full_page,
         screenshot_format="png",
-        timeout_s=60,
+        timeout_s=90,
         max_retries=5,
     )
 
     payload = r.json()
-
-    # Most common format: payload["screenshot"]["data"] is base64.
-    # If ZenRows changes response shape on your plan, print(payload.keys()) once.
     try:
         b64 = payload["screenshot"]["data"]
     except Exception as e:
-        raise RuntimeError(
-            f"Unexpected screenshot payload shape. Keys: {list(payload.keys())}"
-        ) from e
+        raise RuntimeError(f"Unexpected screenshot payload shape. Keys: {list(payload.keys())}") from e
 
     img_bytes = base64.b64decode(b64)
-
     path = Path(out_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_bytes(img_bytes)
-
     return str(path)
