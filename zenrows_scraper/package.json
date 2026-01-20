@@ -1,0 +1,20 @@
+{
+  "name": "zenrows_scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "colord": "^2.9.3",
+    "node-vibrant": "^4.0.3",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "playwright": "^1.57.0"
+  }
+}

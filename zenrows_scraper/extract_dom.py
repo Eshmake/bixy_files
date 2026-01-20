@@ -199,3 +199,5 @@ def extract_dom(html: str, base_url: str) -> Dict:
         "video_urls": video_urls,
         "iframe_urls": iframe_urls,
     }
+
+

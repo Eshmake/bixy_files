@@ -29,6 +29,85 @@ import requests
 from zenrows_fetch import fetch_rendered_html, fetch_screenshot_png, fetch_json_response
 from extract_dom import extract_dom
 
+
+# -----------------------------
+# Node post-processing helpers
+# -----------------------------
+
+def run_node(cmd: List[str], *, cwd: Optional[str] = None, timeout_s: int = 180) -> Tuple[int, str, str]:
+    """Run a Node command and capture (returncode, stdout, stderr)."""
+    p = subprocess.run(
+        cmd,
+        cwd=cwd,
+        timeout=timeout_s,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    return p.returncode, p.stdout, p.stderr
+
+
+def generate_theme_artifacts(url: str, out_dir: Path) -> Dict[str, str]:
+    """Run extract-theme.js then build-brand-theme.js (best effort).
+
+    Produces:
+      out_dir/theme.json
+      out_dir/brand-theme.css
+      out_dir/theme.png  (screenshot created by extract-theme.js)
+    """
+    script_dir = Path(__file__).resolve().parent
+    extract_js = script_dir / "extract-theme.js"
+    build_js = script_dir / "build-brand-theme.js"
+
+    theme_json = out_dir / "theme.json"
+    brand_css = out_dir / "brand-theme.css"
+
+    info: Dict[str, str] = {
+        "themeJsonPath": str(theme_json),
+        "brandCssPath": str(brand_css),
+        "themeScreenshotPath": str(out_dir / "theme.png"),
+    }
+
+    if not extract_js.exists():
+        return {"error": f"missing {extract_js.name}"}
+    if not build_js.exists():
+        return {"error": f"missing {build_js.name}"}
+
+    # 1) extract-theme.js (uses Playwright)
+    rc, extract_out, extract_err = run_node(
+        ["node", str(extract_js), "--url", url, "--out", str(theme_json)],
+        cwd=str(script_dir),
+        timeout_s=240,
+    )
+    if rc != 0:
+        return {
+            "error": "extract-theme failed",
+            "extractStdout": extract_out.strip(),
+            "extractStderr": extract_err.strip(),
+        }
+
+    # 2) build-brand-theme.js
+    rc, build_out, build_err = run_node(
+        ["node", str(build_js), "--theme", str(theme_json), "--out", str(brand_css)],
+        cwd=str(script_dir),
+        timeout_s=60,
+    )
+    if rc != 0:
+        return {
+            "error": "build-brand-theme failed",
+            "buildStdout": build_out.strip(),
+            "buildStderr": build_err.strip(),
+        }
+
+    # success
+    return {
+        **info,
+        "extractStdout": extract_out.strip(),
+        "extractStderr": extract_err.strip(),
+        "buildStdout": build_out.strip(),
+        "buildStderr": build_err.strip(),
+    }
+
 SUPPORTED_CT = {
     "image/png": "png",
     "image/jpeg": "jpg",
@@ -378,11 +457,22 @@ def scrape_brand_report(url: str) -> Dict:
         },
     }
 
+    # 11) Theme extraction + CSS build (best effort)
+    # Set SKIP_THEME=1 to disable.
+    if os.environ.get("SKIP_THEME", "0") not in ("1", "true", "TRUE"):
+        report["theme"] = generate_theme_artifacts(url, out_dir)
+
     save_json(report, str(out_dir / "report.json"))
     return report
 
 
 if __name__ == "__main__":
-    # Change URL here to test
-    r = scrape_brand_report("https://vivint.com/")
-    print("Saved report to:", Path("out") / host_slug("https://vivint.com/") )
+    import sys
+
+    url = os.environ.get("SCRAPE_URL") or (sys.argv[1] if len(sys.argv) > 1 else "https://vivint.com/")
+    r = scrape_brand_report(url)
+    print("Saved report to:", Path("out") / host_slug(url))
+    if isinstance(r.get("theme"), dict) and not r["theme"].get("error"):
+        print("Theme json:", r["theme"].get("themeJsonPath"))
+        print("Brand theme css:", r["theme"].get("brandCssPath"))
+
