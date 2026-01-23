@@ -22,3 +22,12 @@
 
 * To execute, run "python3 run_brand_scrape.py" in terminal.
 
+* EDITS:
+
+    - More generic class names (e.g. in bran theme)
+    - Brand palette --> figure out process for how theme is converted to brand theme
+
+    - Brand colors should be logo colors (pimary), accent colors secondary ... 
+    - Make sure logo is available in both PNG and SVG
+    - Try to convert system to Node.js Typescript
+
